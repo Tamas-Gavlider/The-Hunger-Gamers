@@ -4,6 +4,8 @@
 /* General style for body */
 
 body {
+    display:flex;
+    flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
     color:red;
 }
