@@ -10,6 +10,12 @@ body {
     color:red;
 }
 
+#index-body {
+    background-image: url('/assets/images/pexels-tombrand-1637438.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 h1 {
     margin-top: 0px;
     
