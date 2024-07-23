@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
     color:red;
+    background-color: black;
 }
 
 /* Backgroun image for index.html */
@@ -43,3 +44,13 @@ a {
 
 /* Style for Social Network */
 
+#social-network {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    bottom: 0;
+    gap:10px;
+    margin-top: 575px;
+   
+}
