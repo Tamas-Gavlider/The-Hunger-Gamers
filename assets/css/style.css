@@ -9,3 +9,12 @@ body {
     font-family: 'Silkscreen',sans-serif;
     color:red;
 }
+
+ul {
+    display: flex;
+    align-self: baseline;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    list-style-type: none;
+}
