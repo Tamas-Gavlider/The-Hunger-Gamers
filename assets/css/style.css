@@ -10,6 +10,7 @@ body {
     color:red;
 }
 
+/* Backgroun image for index.html */
 #index-body {
     background-image: url('/assets/images/pexels-tombrand-1637438.jpg');
     background-size: cover;
@@ -27,7 +28,7 @@ a {
 
 
 /* Style for nav links */
-ul {
+#menu {
     display: flex;
     align-self: baseline;
     flex-direction: row;
@@ -39,3 +40,6 @@ ul {
     right: 15px;
     
 }
+
+/* Style for Social Network */
+
