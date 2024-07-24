@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
     color:red;
-    background-color: black;
+    
 }
 
 /* Backgroun image for index.html */
@@ -16,7 +16,14 @@ body {
     background-image: url('/assets/images/pexels-tombrand-1637438.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: black;
     
+}
+
+#events {
+    background-image: url('/assets/images/pexels-cottonbro-4842490.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 h1 {
     margin-top: 0px;
@@ -77,6 +84,7 @@ a {
     left:32%;
     gap:10px;
     position: fixed;
+    
     
     
    
