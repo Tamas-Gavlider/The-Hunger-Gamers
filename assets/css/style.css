@@ -42,6 +42,18 @@ a {
     
 }
 
+/* P on index.html */
+
+#intro {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intor-bold {
+    color:yellow;
+    font-size: 150%;
+}
 /* Style for Social Network */
 
 #social-network {
