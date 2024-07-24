@@ -70,11 +70,12 @@ a {
 #social-network {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
-    bottom: 0;
+    bottom: 5%;
+    left:32%;
     gap:10px;
-    margin-top: 575px;
     position: fixed;
     
    
