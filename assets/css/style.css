@@ -73,10 +73,11 @@ a {
     flex-wrap: wrap;
     justify-content: space-evenly;
     list-style-type: none;
-    bottom: 5%;
+    bottom: 0px;
     left:32%;
     gap:10px;
     position: fixed;
+    
     
    
 }
