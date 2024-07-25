@@ -64,7 +64,7 @@
                     </ul>
                 </details>
             </summary>
-            <summary id="fifa">FIFA tournament
+            <summary id="fifa-event">FIFA tournament
                 <details>
                     Join to our first fifa tournament where the winner will go home with a PS5.
                     <ul>Rules:</ul>
@@ -96,7 +96,7 @@
                     </ul>
                 </details>
             </summary>
-            <summary>
+            <summary id="retro">
                 Retro Weekend
                 <details>Retro consoles like Nintendo Nes or Playstation1 are coming
                     to our place. Relive the childhood memories by playing classic
@@ -105,7 +105,48 @@
                 </details>
             </summary>
         </section>
+        <!-- Registration form -->
+        <section id="register">
+            <form action="registration.html" method="get" id="reg-form">
+                <h2>Register</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name">
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name">
+                <br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email">
+                <br>
+                <!-- Radio buttons for event -->
+                <div>
+                    <div>
+                        <input type="radio" id="resi" value="resi" name="event-type" required>
+                        <label for="resi">Resident Evil Speedrun</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="fifa" value="fifa" name="event-type" required>
+                        <label for="fifa">Fifa</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="froms" value="froms" name="event-type" required>
+                        <label for="froms">FromSoftware Marathon</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="retro-weekend" value="retro-weekend" name="event-type" required>
+                        <label for="both">Retro Weekend</label>
+                    </div>
+
+
+                </div>
+                <submit type="submit">Register</submit>
+
+
+                
+            </form>
+        </section>
     </main>
+
 
     <!-- Footer -->
     <footer>
