@@ -9,6 +9,7 @@ body {
     font-family: 'Silkscreen',sans-serif;
     color:red;
     
+    
 }
 
 /* Background image for index.html */
@@ -72,6 +73,7 @@ a {
     position:relative;
     bottom: 50px;
     right: 15px;
+    
     
 }
 
