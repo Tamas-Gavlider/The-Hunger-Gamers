@@ -28,6 +28,8 @@ body {
     background-image: url('/assets/images/pexels-cottonbro-4842490.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    
 }
 h1 {
     margin-top: 0px;
@@ -118,6 +120,4 @@ a {
     padding-top: 5px;
     left: 0px;
     
-    
-   
 }
