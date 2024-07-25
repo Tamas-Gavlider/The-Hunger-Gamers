@@ -11,16 +11,19 @@ body {
     
 }
 
-/* Backgroun image for index.html */
+/* Background image for index.html */
 #index-body {
     background-image: url('/assets/images/pexels-tombrand-1637438.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    background-attachment: fixed;
     
 }
 
-#events {
+/* Background image for events.html*/
+
+#events-body {
     background-image: url('/assets/images/pexels-cottonbro-4842490.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,10 +84,14 @@ a {
     justify-content: space-evenly;
     list-style-type: none;
     bottom: 0px;
-    left:32%;
     gap:10px;
     position: fixed;
-    
+    width: 100%;
+    background-color: gray;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    left: 0px;
     
     
    
