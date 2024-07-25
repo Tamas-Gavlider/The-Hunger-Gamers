@@ -37,6 +37,29 @@ a {
     color:red;
 }
 
+/* About us section on index.html*/
+
+#about-us p {
+    color:yellow;
+    font-size: small;
+    width:40%;
+}
+
+#about-us h3 {
+    margin-left: 8%;
+    
+}
+
+#about-us h2 {
+    margin-left: 10%;
+    font-size: x-large;
+}
+
+#reason-food h3, #reason-time-travel h3 {
+    margin-left: 12%;
+    
+}
+
 
 /* Style for nav links */
 #menu {
@@ -52,7 +75,7 @@ a {
     
 }
 
-/* P on index.html */
+/* p on index.html */
 
 #intro {
     display:flex;
