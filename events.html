@@ -35,11 +35,11 @@
 
     <main>
         <!-- Event dates and details -->
-        <section>
+        <section id="events">
             <h2 id="events-h2">Upcoming Events</h2>
 
             <br>
-            <p>Aug 9 2024</p>
+            <p>Aug 9 2024 </p>
             <p>Aug 16 2024</p>
             <p>Aug 23 2024</p>
             <p>Aug 30 2024</p>
@@ -115,31 +115,31 @@
                 <label for="last-name">Last Name</label>
                 <input type="text" id="last-name">
                 <br>
-                <label for="email">Email Address</label>
-                <input type="email" id="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
                 <br>
                 <!-- Radio buttons for event -->
                 <div>
                     <div>
-                        <input type="radio" id="resi" value="resi" name="event-type" required>
+                        <input type="radio" id="resi-radio" name="event-type" required>
                         <label for="resi">Resident Evil Speedrun</label>
                     </div>
                     <div>
-                        <input type="radio" id="fifa" value="fifa" name="event-type" required>
+                        <input type="radio" id="fifa-radio" value="fifa" name="event-type" required>
                         <label for="fifa">Fifa</label>
                     </div>
                     <div>
-                        <input type="radio" id="froms" value="froms" name="event-type" required>
+                        <input type="radio" id="froms-radio" value="froms" name="event-type" required>
                         <label for="froms">FromSoftware Marathon</label>
                     </div>
                     <div>
-                        <input type="radio" id="retro-weekend" value="retro-weekend" name="event-type" required>
+                        <input type="radio" id="retro-radio" value="retro-weekend" name="event-type" required>
                         <label for="both">Retro Weekend</label>
                     </div>
 
 
                 </div>
-                <submit type="submit"> Register </submit>
+                <input type="submit">
 
 
 

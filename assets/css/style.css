@@ -10,6 +10,7 @@ body {
     color:red;
     
     
+    
 }
 
 /* Background image for index.html */
@@ -103,6 +104,26 @@ a {
     padding-top: 80px;
     
 }
+
+/* Registration form */
+
+#reg-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 75%;
+    align-items: flex-start;
+}
+
+/* Event dates and details */
+
+#events {
+    width:auto;
+}
+
+#submit-button {
+    background-color: aqua;
+}
+
 /* Style for Social Network */
 
 #social-network {
