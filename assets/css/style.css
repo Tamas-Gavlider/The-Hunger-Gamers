@@ -70,6 +70,7 @@ a {
 #nav-link {
     display: flex;
     align-self: baseline;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
     gap: 10px;
@@ -155,6 +156,10 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: space-around;
+}
+
+#bg-main {
+    background-color: rgb(205, 203, 203);
 }
 
 /* Style for Social Network */
