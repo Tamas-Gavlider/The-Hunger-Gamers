@@ -67,7 +67,7 @@ a {
 
 
 /* Style for nav links */
-#menu {
+#nav-link {
     display: flex;
     align-self: baseline;
     flex-direction: row;
@@ -121,6 +121,7 @@ a {
     bottom: 40%;
     right:15px;
     align-self: center;
+    
 }
 
 /*Background img for registration html*/
@@ -147,7 +148,14 @@ a {
 }
 
 
+/* Menu html*/
 
+#menu {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
 
 /* Style for Social Network */
 
