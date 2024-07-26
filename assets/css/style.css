@@ -114,13 +114,17 @@ a {
     align-items: flex-start;
 }
 
-/*Background for registration html*/
+/*Background img for registration html*/
 
 #reg-page {
-    background-image: url('/assets/images/pexels-cottonbro-4009595.jpg');
+    background-image: url('/assets/images/pexels-cottonbro-6686135.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
+    
+    
 }
+
+/* Registration html main content */
 
 #reg-section {
     display: flex;
@@ -128,10 +132,9 @@ a {
     align-items: center;
     align-content: space-around;
     flex-wrap: wrap;
-    margin-top: 250px;
+    margin-top: 150px;
     font-size: xx-large;
-    color: yellow;
-
+    color:yellow;
 }
 
 
