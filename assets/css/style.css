@@ -9,10 +9,15 @@ body {
     flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
     color:red;
-    
-    
-    
 }
+
+/* Main on index html*/
+
+#index-main {
+    padding-bottom: 10px;
+}
+    
+
 
 /* Background image for index.html */
 #index-body {
@@ -79,9 +84,10 @@ a {
     position:relative;
     bottom: 50px;
     right: 15px;
-    
-    
+
 }
+
+
 
 /* p on index.html */
 
@@ -104,6 +110,7 @@ a {
     flex-wrap: wrap;
     font-size: 130%;
     padding-top: 80px;
+    color: rgb(227, 227, 26);
     
 }
 
@@ -163,6 +170,11 @@ a {
     background-color: rgb(205, 203, 203);
     
 }
+
+#menu ul {
+    list-style-type: none;
+}
+
 
 
 /* Style for Social Network */
