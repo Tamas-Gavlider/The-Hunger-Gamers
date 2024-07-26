@@ -114,15 +114,27 @@ a {
     align-items: flex-start;
 }
 
-/* Event dates and details */
+/*Background for registration html*/
 
-#events {
-    width:auto;
+#reg-page {
+    background-image: url('/assets/images/pexels-cottonbro-4009595.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#submit-button {
-    background-color: aqua;
+#reg-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 250px;
+    font-size: xx-large;
+    color: yellow;
+
 }
+
+
 
 /* Style for Social Network */
 
