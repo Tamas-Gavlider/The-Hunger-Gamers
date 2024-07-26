@@ -4,6 +4,7 @@
 /* General style for body */
 
 body {
+    margin:5px 5px;
     display:flex;
     flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
@@ -154,13 +155,15 @@ a {
 #menu {
     display:flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-content: space-around;
+    flex-direction: row;
+    
 }
 
 #bg-main {
     background-color: rgb(205, 203, 203);
+    
 }
+
 
 /* Style for Social Network */
 
