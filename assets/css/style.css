@@ -166,7 +166,7 @@ a {
 /*Background img for registration html*/
 
 #reg-page {
-    background-image: url('assets/images/pexels-cottonbro-6686135.jpg');
+    background-image: url('/assets/images/pexels-cottonbro-6686135.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     
@@ -208,9 +208,15 @@ a {
     border:5px solid yellow;
     text-align: center;
     padding: 5px 15px;
+    margin-top: 0;
+    margin-bottom: 0;
     
 }
 
+#beer, #maindish, #appetizers, #coffee, #soft-drinks, #snacks {
+    background-color: rgb(6, 6, 6,0.7) ;
+    
+}
 
 
 /* Style for Social Network */
