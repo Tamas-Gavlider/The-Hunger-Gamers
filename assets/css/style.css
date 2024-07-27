@@ -84,8 +84,22 @@ a {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
-    flex-shrink: 2;
+    
 
+}
+
+#introduction {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#invitation {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
 }
 
 /* Style for nav links */
