@@ -21,7 +21,7 @@ body {
 
 /* Background image for index.html */
 #index-body {
-    background-image: url('assets/images/pexels-tombrand-1637438.jpg');
+    background-image: url('/assets/images/pexels-tombrand-1637438.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -32,7 +32,7 @@ body {
 /* Background image for events.html*/
 
 #events-body {
-    background-image: url('assets/images/pexels-cottonbro-4842490.jpg');
+    background-image: url('/assets/images/pexels-cottonbro-4842490.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -164,11 +164,12 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    font-size: x-large;
     
 }
 
 #bg-main {
-    background-color: rgb(205, 203, 203);
+    background-color: rgb(56, 48, 48);
     
 }
 
@@ -176,7 +177,7 @@ a {
     list-style-type: none;
     border:5px solid yellow;
     text-align: center;
-    padding: 5px 5px;
+    padding: 5px 15px;
     
 }
 
