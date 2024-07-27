@@ -21,7 +21,7 @@ body {
 
 /* Background image for index.html */
 #index-body {
-    background-image: url('../assets/images/pexels-tombrand-1637438.jpg');
+    background-image: url('./assets/images/pexels-tombrand-1637438.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
