@@ -25,7 +25,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    background-attachment: fixed;
+    
     
 }
 
@@ -50,20 +50,29 @@ a {
 
 /* About us section on index.html*/
 
+#about-us {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 #about-us p {
     color:yellow;
     font-size: small;
-    width:40%;
+    
 }
 
 #about-us h3 {
     margin-left: 8%;
+    text-align: center;
     
 }
 
+
 #about-us h2 {
     margin-left: 10%;
-    font-size: x-large;
+    font-size: xx-large;
+    text-align: center;
 }
 
 #reason-food h3, #reason-time-travel h3 {
@@ -71,6 +80,13 @@ a {
     
 }
 
+#reason {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+
+}
 
 /* Style for nav links */
 #nav-link {
