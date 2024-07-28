@@ -163,6 +163,11 @@ a {
     
 }
 
+#reg-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Event date and details */
 
 #events {
@@ -175,11 +180,8 @@ a {
 /* Registration form */
 
 #reg-form {
-    position: absolute;
-    bottom: 40%;
     right:15px;
     align-self: center;
-    
 }
 
 /*Background img for registration html*/
@@ -260,3 +262,12 @@ a {
     padding-left: 0px;
     
 }
+
+
+/*#reg-form {
+    position: absolute;
+    bottom: 40%;
+    right:15px;
+    align-self: center;
+    
+}*/
