@@ -37,15 +37,6 @@ body {
     padding-bottom: 10px;
 }
 
-/* Background image for events.html*/
-
-#events-body {
-    background-image: url('../images/pexels-cottonbro-4842490.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    
-}
 #logo {
     text-align: center;
     display: flex;
@@ -163,6 +154,14 @@ a {
     color: red;
     text-decoration: none;
  }
+
+ /*BG img for events html*/
+
+ #events-body {
+    background-image: url('../images/pexels-cottonbro-4842490.jpg');
+    background-size: 325%;
+    
+}
 
 /* Event date and details */
 
