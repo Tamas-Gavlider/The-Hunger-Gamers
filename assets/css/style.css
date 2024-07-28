@@ -19,8 +19,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
-    background-attachment: scroll;
-    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+   
     
     
 }
