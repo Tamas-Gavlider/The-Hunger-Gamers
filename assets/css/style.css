@@ -4,20 +4,14 @@
 /* General style for body */
 
 body {
-    margin:5px 5px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display:flex;
     flex-direction: column;
     font-family: 'Silkscreen',sans-serif;
     color:red;
 }
-
-/* Main on index html*/
-
-#index-main {
-    padding-bottom: 10px;
-}
-    
-
 
 /* Background image for index.html */
 #index-body {
@@ -25,8 +19,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    background-attachment: scroll;
+    display: flex;
     
     
+}
+
+#index-body p {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+}
+
+#index-main {
+    padding-bottom: 10px;
 }
 
 /* Background image for events.html*/
@@ -38,17 +46,45 @@ body {
     background-attachment: scroll;
     
 }
-h1 {
-    margin-top: 0px;
+#logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
     
 }
 
 a {
     color:red;
+    text-decoration: none;
+}
+
+/* p on index.html */
+
+#intro {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-bold {
+    color:yellow;
+    font-size: 150%;
+}
+
+/* Style for events intro */
+
+#events-intro {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 130%;
+    padding-top: 80px;
+    color: rgb(227, 227, 26);
+    
 }
 
 
-/* About us section on index.html*/
+/* About us and intro section on index.html*/
 
 #about-us {
     display:flex;
@@ -95,6 +131,7 @@ a {
     align-items: center;
 }
 
+/* Last sentence on index html */
 #invitation {
     display: flex;
     flex-wrap: wrap;
@@ -102,47 +139,30 @@ a {
     flex-direction: column;
 }
 
-/* Style for nav links */
-#nav-link {
+/* Nav link */
+ 
+ #nav-link {
     display: flex;
-    align-self: baseline;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-end;
-    gap: 10px;
-    list-style-type: none;
-    position:relative;
-    bottom: 50px;
-    right: 15px;
-
-}
-
-
-
-/* p on index.html */
-
-#intro {
-    display:flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-}
-
-.intro-bold {
-    color:yellow;
-    font-size: 150%;
-}
-
-/* Style for events intro */
-
-#events-intro {
+    justify-content: space-around;
+    color: red;
+    padding: 10px 0;
+ }
+ 
+ #nav-link ul {
+    list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    font-size: 130%;
-    padding-top: 80px;
-    color: rgb(227, 227, 26);
     
-}
+ }
+ 
+ #nav-link li {
+    margin: 0 15px;
+    list-style-type: none;
+ }
+ 
+#nav-link a {
+    color: red;
+    text-decoration: none;
+ }
 
 /* Event date and details */
 
@@ -189,7 +209,11 @@ a {
 
 /* Menu html*/
 
-#menu {
+#main-menu {
+    padding-bottom: 55px;
+}
+
+#menu-food {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -199,11 +223,11 @@ a {
 }
 
 #bg-main {
-    background-color: rgb(56, 48, 48);
+    background-color: black;
     
 }
 
-#menu ul {
+#menu-food ul {
     list-style-type: none;
     border:5px solid yellow;
     text-align: center;
@@ -234,5 +258,6 @@ a {
     background-color: gray;
     margin-bottom: 0px;
     left: 0px;
+    padding-left: 0px;
     
 }
