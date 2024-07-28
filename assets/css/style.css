@@ -128,6 +128,12 @@ a {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 5px;
+    
+}
+
+#invitation p {
+    color: red;
 }
 
 /* Nav link */
@@ -257,13 +263,14 @@ a {
     justify-content: space-evenly;
     list-style-type: none;
     bottom: 0px;
-    gap:10px;
+    gap:5px;
     position: fixed;
     width: 100%;
-    background-color: gray;
+    background-color: rgb(2, 2, 2);
     margin-bottom: 0px;
     left: 0px;
     padding-left: 0px;
+    border-top: 5px solid yellow;
     
 }
 
