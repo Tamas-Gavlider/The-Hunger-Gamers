@@ -144,6 +144,7 @@ a {
     justify-content: space-around;
     color: red;
     padding: 10px 0;
+    letter-spacing: 2px;
  }
  
  #nav-link ul {
@@ -182,6 +183,7 @@ a {
     flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
+    text-align: center;
 }
 
 /* Registration form */
