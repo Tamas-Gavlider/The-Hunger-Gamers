@@ -171,6 +171,10 @@ a {
     
 }
 
+#header-events {
+    height:130px;
+}
+
 #reg-main {
     display: flex;
     flex-wrap: wrap;
@@ -184,6 +188,13 @@ a {
     flex-direction: column;
     align-content: center;
     text-align: center;
+    position: absolute;
+    
+}
+
+#events-h2 {
+    margin-top: 22px;
+    margin-bottom: 0;
 }
 
 /* Registration form */
@@ -201,6 +212,10 @@ a {
     background-size:cover;
     
     
+}
+
+#register {
+    margin-top: 22rem;
 }
 
 /* Registration html main content */
