@@ -193,10 +193,6 @@ a {
 
 }
 
-#header-events {
-    height:130px;
-}
-
 #reg-main {
     display: flex;
     flex-wrap: wrap;
@@ -251,6 +247,11 @@ details:hover {
     margin-left: 5px;
 }
 
+#reg-submit {
+    margin-bottom: 30px;
+}
+
+
 /*Background img for registration html*/
 
 #reg-page {
@@ -284,22 +285,17 @@ details:hover {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 100px;
 }
 
 #reg-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 150px;
     color:yellow;
 }
-
-#reg-submit {
-    margin-bottom: 30px;
-}
-
 
 /* Menu html*/
 
