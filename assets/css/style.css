@@ -237,35 +237,8 @@ details:hover {
     top:460px;
 }
 
-/*Background img for registration html*/
-
-#reg-page {
-    background-image: url('../images/pexels-cottonbro-4842495-2.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    
-}
-
 #register {
     margin-top: 22rem;
-}
-
-/* Registration html main content */
-
-#reg-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: space-around;
-    flex-wrap: wrap;
-    margin-top: 150px;
-    font-size: xx-large;
-    color:yellow;
-}
-
-#reg-submit {
-    margin-bottom: 30px;
 }
 
 /* Input fields size */
@@ -277,6 +250,56 @@ details:hover {
 #last-name {
     margin-left: 5px;
 }
+
+/*Background img for registration html*/
+
+#reg-page {
+    background-color: black;
+    position: fixed;
+    
+    
+}
+
+#reg-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#reg-ul {
+    padding-left: 0;
+}
+
+#reg-title {
+    text-align: center;
+    display: flex;
+    height:0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+}
+
+/* Registration html main content */
+
+#reg-main {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#reg-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    color:yellow;
+}
+
+#reg-submit {
+    margin-bottom: 30px;
+}
+
 
 /* Menu html*/
 
@@ -340,10 +363,4 @@ details:hover {
 }
 
 
-/*#reg-form {
-    position: absolute;
-    bottom: 40%;
-    right:15px;
-    align-self: center;
-    
-}*/
+
