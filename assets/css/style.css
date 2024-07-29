@@ -13,6 +13,10 @@ body {
     color:red;
 }
 
+header {
+    position: fixed;
+}
+
 /* Background image for index.html */
 #index-body {
     background-image: url('../images/pexels-tombrand-1637438.jpg');
@@ -145,6 +149,7 @@ a {
     color: red;
     padding: 10px 0;
     letter-spacing: 2px;
+    
  }
  
  #nav-link ul {
@@ -166,8 +171,7 @@ a {
  /*BG img for events html*/
 
  #events-body {
-    background-image: url('../images/pexels-cottonbro-4842490.jpg');
-    background-size: 325%;
+    background-color: black;
     
     
     
