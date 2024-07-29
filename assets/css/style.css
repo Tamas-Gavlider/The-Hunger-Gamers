@@ -222,6 +222,10 @@ a {
 
 /* Style for details in summary */
 
+details:hover {
+    background-color: white;
+}
+
 /* Registration form */
 
 #reg-form {
