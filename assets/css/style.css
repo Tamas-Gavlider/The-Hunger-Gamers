@@ -206,6 +206,7 @@ a {
     align-content: center;
     text-align: center;
     position: absolute;
+    bottom:200px;
     
 }
 
@@ -223,6 +224,8 @@ a {
 #reg-form {
     right:15px;
     align-self: center;
+    position: absolute;
+    top:460px;
 }
 
 /*Background img for registration html*/
@@ -252,6 +255,9 @@ a {
     color:yellow;
 }
 
+#reg-submit {
+    margin-bottom: 30px;
+}
 
 /* Menu html*/
 
