@@ -221,7 +221,7 @@ a {
 }
 
 
-/* Style for details in summary */
+/* BG for details in summary if clicked on it*/
 
 details:hover {
     background-color: white;
@@ -312,7 +312,7 @@ details:hover {
     
 }
 
-#beer, #maindish, #appetizers, #coffee, #soft-drinks, #snacks {
+.menu {
     background-color: rgb(6, 6, 6,0.7) ;
     
 }
