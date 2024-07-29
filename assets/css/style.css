@@ -259,6 +259,14 @@ a {
     margin-bottom: 30px;
 }
 
+#email {
+    margin-left: 55px;
+}
+
+#last-name {
+    margin-left: 5px;
+}
+
 /* Menu html*/
 
 #main-menu {
