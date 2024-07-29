@@ -15,6 +15,9 @@ body {
 
 header {
     position: fixed;
+    z-index: 99;
+    background-color: gray;
+    height: 125px;
 }
 
 /* Background image for index.html */
@@ -28,6 +31,8 @@ header {
    
 }
 
+/*Style for index body */
+
 #index-body p {
     text-align: center;
 }
@@ -35,10 +40,13 @@ header {
 #title {
     text-align: center;
     margin-top: 0;
+    height:70px;
+    
 }
 
 #index-main {
     padding-bottom: 10px;
+    margin-top: 80px;
 }
 
 #logo {
@@ -52,6 +60,35 @@ a {
     color:red;
     text-decoration: none;
 }
+
+
+/* Nav link */
+ 
+#nav-link {
+    display: flex;
+    justify-content: space-around;
+    color: red;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    
+    
+ }
+ 
+ #nav-link ul {
+    list-style: none;
+    display: flex;
+    
+ }
+ 
+ #nav-link li {
+    margin: 0 15px;
+    list-style-type: none;
+ }
+ 
+#nav-link a {
+    color: red;
+    text-decoration: none;
+ }
 
 /* p on index.html */
 
@@ -141,33 +178,6 @@ a {
     color: red;
 }
 
-/* Nav link */
- 
- #nav-link {
-    display: flex;
-    justify-content: space-around;
-    color: red;
-    padding: 10px 0;
-    letter-spacing: 2px;
-    
- }
- 
- #nav-link ul {
-    list-style: none;
-    display: flex;
-    
- }
- 
- #nav-link li {
-    margin: 0 15px;
-    list-style-type: none;
- }
- 
-#nav-link a {
-    color: red;
-    text-decoration: none;
- }
-
  /*BG img for events html*/
 
  #events-body {
@@ -247,6 +257,7 @@ a {
 
 #main-menu {
     padding-bottom: 20px;
+    margin-top: 125px;
 }
 
 #menu-food {
