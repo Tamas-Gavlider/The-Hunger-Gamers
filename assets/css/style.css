@@ -169,6 +169,8 @@ a {
     background-image: url('../images/pexels-cottonbro-4842490.jpg');
     background-size: 325%;
     
+    
+    
 }
 
 #header-events {
@@ -178,6 +180,7 @@ a {
 #reg-main {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 /* Event date and details */
@@ -196,6 +199,10 @@ a {
     margin-top: 22px;
     margin-bottom: 0;
 }
+
+/* Style for details in summary */
+
+
 
 /* Registration form */
 
