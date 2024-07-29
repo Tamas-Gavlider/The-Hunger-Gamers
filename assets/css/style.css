@@ -18,6 +18,7 @@ header {
     z-index: 99;
     background-color: gray;
     height: 125px;
+    width: 100%;
 }
 
 /* Background image for index.html */
@@ -239,7 +240,7 @@ details:hover {
 /*Background img for registration html*/
 
 #reg-page {
-    background-image: url('../images/pexels-cottonbro-6686135\ 2.jpg');
+    background-image: url('../images/pexels-cottonbro-4842495-2.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     
