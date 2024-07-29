@@ -183,8 +183,12 @@ a {
  #events-body {
     background-color: black;
     
-    
-    
+}
+
+.events-title {
+    height: 60px;
+    margin-bottom: 0;
+
 }
 
 #header-events {
@@ -211,13 +215,12 @@ a {
 }
 
 #events-h2 {
-    margin-top: 22px;
-    margin-bottom: 0;
+    height:40px;
+    margin-top: 0;
 }
 
+
 /* Style for details in summary */
-
-
 
 /* Registration form */
 
@@ -258,6 +261,8 @@ a {
 #reg-submit {
     margin-bottom: 30px;
 }
+
+/* Input fields size */
 
 #email {
     margin-left: 55px;
