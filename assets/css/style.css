@@ -223,7 +223,8 @@ a {
 /* BG for details in summary if clicked on it*/
 
 details:hover {
-    background-color: white;
+    background-color: yellow;
+    z-index: 5;
 }
 
 /* Registration form */
