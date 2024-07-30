@@ -19,6 +19,7 @@ header {
     background-color: gray;
     height: 125px;
     width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 /* Background image for index.html */
@@ -193,11 +194,6 @@ a {
 
 }
 
-#reg-main {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 30px;
-}
 
 /* Event date and details */
 
@@ -284,8 +280,13 @@ details:hover {
 #reg-main {
     display: flex;
     flex-wrap: wrap;
-    text-align: center;
     margin-top: 100px;
+    margin-bottom: 30px;
+    
+}
+
+#register h2 {
+    text-align: center;
 }
 
 #reg-section {
@@ -355,6 +356,7 @@ details:hover {
     left: 0px;
     padding-left: 0px;
     border-top: 5px solid yellow;
+    box-shadow: 0 2px 2px #3a3a3a;
     
 }
 
