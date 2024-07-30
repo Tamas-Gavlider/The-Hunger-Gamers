@@ -29,7 +29,7 @@ webpage refers to classic video games, evoking nostalgia and retro feel.
 
 ## Images
 
-All background images were downloaded from [pexels.com][1]: <https://www.pexels.com>.
+All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
 ## Features 
 
