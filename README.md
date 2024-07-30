@@ -1,7 +1,7 @@
 
 # Hunger Gamers
 
-Hunger Gamers is a responsive website allowing users to view on range of devices. The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying our delicious food. The weekend events will guarantee the fun for everyone.
+Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying our delicious food. The weekend events will guarantee the fun for everyone.
 
 ## Web Page goal
 
@@ -24,5 +24,14 @@ These colours together create a bold, and energetic vibe.
 
 ## Typography 
 
-I use the Google Font Silkscreen for the website. The pixelated style used on<br>
+Google Font Silkscreen is being used for the website. The pixelated style used on<br>
 webpage refers to classic video games, evoking nostalgia and retro feel.
+
+## Images
+
+All background images were downloaded from [pexels.com][1]: <https://www.pexels.com>.
+
+## Features 
+
+The website is comprised of four pages, three of which are accessible from the navigation menu (home page, menu page & registration page).<br>
+The fourth page is a confirmation page which is shown once a user submits the form on the events page.
