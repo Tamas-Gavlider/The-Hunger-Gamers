@@ -401,10 +401,6 @@ details:hover {
         bottom: 33px;
     }
 
-    submit {
-        color: red;
-    }
-
     /* Adjust the Header and Nav link */
 
     nav {
@@ -416,9 +412,15 @@ details:hover {
         height: 80px;
     }
 
+    .nav-link-evets {
+        padding: 18px;
+    }
+
+
     #index-main {
         margin-top: 30px;
     }
+
 
     /*Adjust the menu on menu html*/
 
@@ -428,6 +430,13 @@ details:hover {
 
     #menu-food {
         flex-direction: column;
+    }
+
+    /* Adjust the registration html*/
+
+    #reg-title {
+        display: block;
+        width: 100%;
     }
 
 
