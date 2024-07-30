@@ -364,7 +364,26 @@ details:hover {
     padding-left: 0px;
     border-top: 5px solid yellow;
     box-shadow: 0 2px 2px #3a3a3a;
+    z-index: 3;
     
+}
+
+/* Media query: large or landscape phones (576px and up)*/
+
+@media screen and (min-width:576px){
+    #events {
+        top: 60px;
+        z-index: 2;
+        position: relative;
+        top:30px;
+
+    }
+
+    #reg-form {
+        height: 400px;
+        top: 450px;
+        bottom:100px;
+    }
 }
 
 
