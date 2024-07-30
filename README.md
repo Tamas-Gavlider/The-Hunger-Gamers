@@ -13,10 +13,16 @@ Hunger Gamers is a responsive website allowing users to view on range of devices
 
 ## Design
 
-The website uses black,red and yellow colours due to their strong visual impact and symbolic meanings:
+The website uses black,red and yellow colours due to their strong visual impact <br>
+and symbolic meanings:
 
 * **Black:** Often associated with elegance, and modernity.
 * **Red:** Conveys excitement, energy, and passion.
 * **Yellow:** Represents happiness, optimism, and energy.
 
 These colours together create a bold, and energetic vibe.
+
+## Typography 
+
+I use the Google Font Silkscreen for the website. The pixelated style used on<br>
+webpage refers to classic video games, evoking nostalgia and retro feel.
