@@ -293,9 +293,9 @@ details:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
     margin-top: 150px;
     color:yellow;
+    text-align: center;
 }
 
 /* Menu html*/
