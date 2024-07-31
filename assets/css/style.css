@@ -92,6 +92,10 @@ a {
     text-decoration: none;
 }
 
+#nav-link a:hover {
+    background-color: yellow;
+}
+
 /* p on index.html */
 
 #intro {
