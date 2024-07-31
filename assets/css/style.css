@@ -374,6 +374,10 @@ details:hover {
 
 }
 
+#social-network li:hover {
+    background-color: yellow;
+}
+
 /* Media query: style for screens betweem 360px and 575px */
 
 
