@@ -215,7 +215,7 @@ a {
     flex-direction: column;
     align-content: center;
     text-align: center;
-    position: absolute;
+    
     bottom: 200px;
 
 }
@@ -231,19 +231,6 @@ a {
 details:hover {
     background-color: yellow;
     z-index: 5;
-}
-
-/* Registration form */
-
-#reg-form {
-    right: 15px;
-    align-self: center;
-    position: absolute;
-    top: 460px;
-}
-
-#register {
-    margin-top: 22rem;
 }
 
 /* Input fields size */
@@ -293,8 +280,8 @@ details:hover {
 #reg-main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin-top: 125px;
+    
 
 }
 
@@ -385,18 +372,17 @@ details:hover {
 
     /*Adjust the events html*/
 
+    #reg-main {
+        justify-content: space-evenly;
+    }
+
     #events {
-        position: relative;
-        top: 30px;
+        position: unset;
         z-index: 9;
     }
 
     #reg-form {
         left: 10px;
-    }
-
-    #register h2 {
-        text-align: justify;
     }
 
     #reg-section h2 {
@@ -422,14 +408,6 @@ details:hover {
         position: relative;
         top: 30px;
 
-    }
-
-    #reg-form {
-        position: unset;
-    }
-
-    #reg-form h2 {
-        text-align: justify;
     }
 
     #events {
@@ -506,4 +484,8 @@ details:hover {
     }
 
 
+}
+
+@media screen and (min-width:768px){
+    
 }
