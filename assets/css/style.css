@@ -454,3 +454,23 @@ details:hover {
         flex-wrap: nowrap;
     }
 }
+
+/* Media query: style for screens 370px and up */
+
+@media screen and (min-width:370px) {
+    #events {
+        position: relative;
+        top: 30px;
+        z-index: 9;
+    }
+
+    #reg-form {
+        left: 10px;
+    }
+
+    #register h2 {
+        text-align: justify;
+    }
+
+
+}
