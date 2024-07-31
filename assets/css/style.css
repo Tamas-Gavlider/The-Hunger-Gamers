@@ -306,7 +306,7 @@ details:hover {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 150px;
+    margin-top: 100px;
     color: yellow;
     text-align: center;
 }
@@ -319,7 +319,7 @@ details:hover {
 }
 
 #menu-food {
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
@@ -371,6 +371,32 @@ details:hover {
     border-top: 5px solid yellow;
     box-shadow: 0 2px 2px #3a3a3a;
     z-index: 3;
+
+}
+
+/* Media query: style for screens 370px and up */
+
+@media screen and (min-width:360px) {
+
+    /*Adjust the events html*/
+
+    #events {
+        position: relative;
+        top: 30px;
+        z-index: 9;
+    }
+
+    #reg-form {
+        left: 10px;
+    }
+    
+    #register h2 {
+        text-align: justify;
+    }
+
+    #reg-section h2 {
+        font-size: xx-large;
+    }
 
 }
 
@@ -440,7 +466,7 @@ details:hover {
     /* Adjust the registration html*/
 
     #reg-title {
-        display: block;
+        display: inline-block;
         width: 100%;
     }
 
@@ -450,27 +476,17 @@ details:hover {
 
     #reg-section {
         margin-top: 0;
-        flex-direction: unset;
-        flex-wrap: nowrap;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
     }
+
+    #reg-section h2 {
+        font-size: medium;
+        padding-left: 10px;
+    }
+
+    
 }
 
-/* Media query: style for screens 370px and up */
 
-@media screen and (min-width:370px) {
-    #events {
-        position: relative;
-        top: 30px;
-        z-index: 9;
-    }
-
-    #reg-form {
-        left: 10px;
-    }
-
-    #register h2 {
-        text-align: justify;
-    }
-
-
-}
