@@ -16,10 +16,11 @@ body {
 header {
     position: fixed;
     z-index: 99;
-    background-color: gray;
+    background-color: black;
     height: 125px;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    border-bottom: 2px solid yellow;
 }
 
 /* Background image for index.html */
