@@ -374,9 +374,10 @@ details:hover {
 
 }
 
-/* Media query: style for screens 370px and up */
+/* Media query: style for screens betweem 360px and 575px */
 
-@media screen and (min-width:360px) {
+
+@media screen and (min-width:360px) and (max-width:575px) {
 
     /*Adjust the events html*/
 
@@ -389,7 +390,7 @@ details:hover {
     #reg-form {
         left: 10px;
     }
-    
+
     #register h2 {
         text-align: justify;
     }
@@ -405,6 +406,12 @@ details:hover {
 @media screen and (min-width:576px) {
 
     /* Adjust the reg-form and event details on events html */
+
+    #reg-main {
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
     #events {
         top: 60px;
         z-index: 2;
@@ -414,9 +421,11 @@ details:hover {
     }
 
     #reg-form {
-        height: 400px;
-        top: 385px;
-        bottom: 100px;
+        position: unset;
+    }
+
+    #reg-form h2 {
+        text-align: justify;
     }
 
     #events {
@@ -431,6 +440,12 @@ details:hover {
         text-align: left;
         bottom: 33px;
     }
+
+    #register {
+        margin-top: 0;
+    }
+
+   
 
     /* Adjust the Header and Nav link */
 
@@ -486,7 +501,5 @@ details:hover {
         padding-left: 10px;
     }
 
-    
+
 }
-
-
