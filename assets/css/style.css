@@ -282,13 +282,8 @@ details:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 125px;
-
-
 }
 
-#register h2 {
-    text-align: center;
-}
 
 #reg-section {
     display: flex;
@@ -369,7 +364,7 @@ details:hover {
 /* Media query: style for screens betweem 376px and 575px */
 
 
-@media screen and (min-width:376px) and (max-width:575px) {
+@media screen and (min-width:376px){
 
     /*Adjust the events html*/
 
