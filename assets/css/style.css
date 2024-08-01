@@ -215,7 +215,7 @@ a {
     flex-direction: column;
     align-content: center;
     text-align: center;
-    
+
     bottom: 200px;
 
 }
@@ -281,7 +281,7 @@ details:hover {
     display: flex;
     flex-wrap: wrap;
     margin-top: 125px;
-    
+
 
 }
 
@@ -427,7 +427,7 @@ details:hover {
         margin-top: 0;
     }
 
-   
+
 
     /* Adjust the Header and Nav link */
 
@@ -487,7 +487,7 @@ details:hover {
 }
 
 /*Media query: tablets nad larger screens ( 768px and up)*/
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
 
     /* Basic adjustments*/
     body {
@@ -514,9 +514,10 @@ details:hover {
         padding-bottom: 15px;
     }
 
-    #about-us > h2 {
+    #about-us>h2 {
         font-size: xxx-large;
     }
+
     /* Adjust the food menu */
 
     #menu-food {
@@ -524,6 +525,37 @@ details:hover {
         padding-bottom: 20px;
     }
 
+    /* Adjust reg-form on events html*/
 
-    
+    #reg-form {
+        height: 485px;
+    }
+
+    input {
+        height: 22px;
+    }
+
+    #email {
+        margin-left: 110px;
+    }
+
+    #last-name {
+        margin-left: 10px;
+    }
+
+    /*Adjustment on registration html*/
+
+    /*Push the border line below the nav links*/
+
+    #reg-header {
+        height: 140px;
+    }
+
+    #reg-section {
+        justify-content: center;
+        margin-top: 0;
+        font-size: xxx-large;
+    }
+
+
 }
