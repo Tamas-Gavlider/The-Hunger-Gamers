@@ -245,6 +245,7 @@ details:hover {
 
 #reg-submit {
     margin-bottom: 30px;
+    background-color: red;
 }
 
 
@@ -559,6 +560,11 @@ details:hover {
 
     #reg-section h2 {
         font-size: xxx-large;
+    }
+
+    input[type=submit] {
+        width: 100px;
+        height: 32px;
     }
 
 
