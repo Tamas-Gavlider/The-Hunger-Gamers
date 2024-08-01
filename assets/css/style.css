@@ -25,7 +25,7 @@ header {
 
 /* Background image for index.html */
 #index-body {
-    background-image: url('../images/pexels-tombrand-1637438.jpg');
+    background-image: url('../images/pexels-tombrand-1637438\ \(1\).webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -365,7 +365,7 @@ details:hover {
     background-color: yellow;
 }
 
-/* Media query: style for screens betweem 360px and 575px */
+/* Media query: style for screens betweem 376px and 575px */
 
 
 @media screen and (min-width:376px) and (max-width:575px) {
@@ -486,6 +486,44 @@ details:hover {
 
 }
 
+/*Media query: tablets nad larger screens ( 768px and up)*/
 @media screen and (min-width:768px){
+
+    /* Basic adjustments*/
+    body {
+        font-size: xx-large;
+    }
+
+    /* Push the border line under the nav links*/
+
+    header {
+        height: 120px;
+    }
+
+    /* Adjustments on index html - change font size -padding/margin*/
+
+    #index-main {
+        margin-top: 40px;
+    }
+
+    #index-main p {
+        font-size: x-large;
+    }
+
+    #invitation {
+        padding-bottom: 15px;
+    }
+
+    #about-us > h2 {
+        font-size: xxx-large;
+    }
+    /* Adjust the food menu */
+
+    #menu-food {
+        font-size: xxx-large;
+        padding-bottom: 20px;
+    }
+
+
     
 }
