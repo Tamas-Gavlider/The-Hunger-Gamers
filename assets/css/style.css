@@ -553,7 +553,11 @@ details:hover {
 
     #reg-section {
         justify-content: center;
-        margin-top: 0;
+        margin-top: 100px;
+        
+    }
+
+    #reg-section h2 {
         font-size: xxx-large;
     }
 
