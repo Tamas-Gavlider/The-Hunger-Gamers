@@ -375,6 +375,7 @@ details:hover {
 
     #reg-main {
         justify-content: space-evenly;
+        font-size: x-large;
     }
 
     #events {
@@ -390,6 +391,15 @@ details:hover {
         font-size: xx-large;
     }
 
+    #email {
+        margin-left: 82px;
+
+    }
+
+    #last-name {
+        margin-left: 8px;
+    }
+
 }
 
 /* Media query: large or landscape phones (576px and up)*/
@@ -401,6 +411,7 @@ details:hover {
     #reg-main {
         align-items: baseline;
         justify-content: space-between;
+
     }
 
     #events {
@@ -561,6 +572,8 @@ details:hover {
     #reg-section h2 {
         font-size: xxx-large;
     }
+
+    /*Makes the input submit larger*/
 
     input[type=submit] {
         width: 100px;
