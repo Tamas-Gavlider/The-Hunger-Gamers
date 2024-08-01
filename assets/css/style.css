@@ -361,7 +361,7 @@ details:hover {
     background-color: yellow;
 }
 
-/* Media query: style for screens betweem 376px and 575px */
+/* Media query: style for screens betweem 376px*/
 
 
 @media screen and (min-width:376px){
@@ -543,7 +543,7 @@ details:hover {
     }
 
     #email {
-        margin-left: 110px;
+        margin-left: 85px;
     }
 
     #last-name {
