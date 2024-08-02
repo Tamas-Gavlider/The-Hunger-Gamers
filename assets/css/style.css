@@ -77,11 +77,6 @@ a {
 
 }
 
-#nav-events {
-    margin-top: 5px;
-    padding-top: 3px;
-}
-
 #nav-link ul {
     list-style: none;
     display: flex;
@@ -100,6 +95,13 @@ a {
 
 #nav-link a:hover {
     background-color: yellow;
+}
+
+/* Move the nav links closer to bottom border*/
+
+#nav-events {
+    margin-top: 5px;
+    padding-top: 3px;
 }
 
 /* p on index.html */
@@ -261,7 +263,7 @@ details:hover {
 }
 
 
-/*Background img for registration html*/
+/*Style for registration html*/
 
 #reg-page {
     background-color: black;
@@ -302,6 +304,7 @@ details:hover {
     margin-top: 100px;
     color: yellow;
     text-align: center;
+    padding-bottom: 5px;
 }
 
 /* Menu html*/
