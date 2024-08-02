@@ -589,12 +589,13 @@ details:hover {
 }
 
 /*Media query: laptops and larger screens ( 1024px and up)*/
-@media screen and (min-width:1024px) {
+@media screen and (min-width:992px) {
 
     /*Adjustment on events html*/
 
     #events-main {
         overflow-y: scroll;
+        font-size: xxx-large;
     }
 
     #reg-submit {
@@ -602,11 +603,15 @@ details:hover {
     }
 
     #last-name {
-        margin-left: 11px;
+        margin-left: 17px;
     }
 
     #email {
-        margin-left: 111px;
+        margin-left: 168px;
     }
+
+    /*Adjustment on registration html*/
+
+
 
 }
