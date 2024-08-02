@@ -619,8 +619,23 @@ details:hover {
 
 }
 
-/* Devices 1200px and wider*/
+/* Media query: Devices 1200px and up*/
 
 @media screen and (min-width: 1200px) {
+
+    /*Bring the reason section to the center*/
+    #reason {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* Media query: Desktops 1400px and up*/
+@media screen and (min-width: 1400px) {
+    /*Move the section to the center*/
+    #events-intro {
+        font-size: 180%;
+    }
 
 }
