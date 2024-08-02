@@ -209,6 +209,13 @@ a {
 
 /* Event date and details */
 
+#events-main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 125px;
+
+}
+
 #events {
     display: flex;
     flex-wrap: wrap;
@@ -279,7 +286,7 @@ details:hover {
 #reg-main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 125px;
+    margin-top: 95px;
 }
 
 
@@ -366,7 +373,7 @@ details:hover {
 
     /*Adjust the events html*/
 
-    #reg-main {
+    #events-main {
         justify-content: space-evenly;
         font-size: x-large;
     }
@@ -401,7 +408,7 @@ details:hover {
 
     /* Adjust the reg-form and event details on events html */
 
-    #reg-main {
+    #events-main {
         align-items: baseline;
         justify-content: space-between;
 
@@ -533,7 +540,7 @@ details:hover {
 
     /* Adjust reg-form on events html*/
 
-    #reg-main {
+    #events-main {
         font-size: xx-large;
     }
 
@@ -586,7 +593,7 @@ details:hover {
 
     /*Adjustment on events html*/
 
-    #reg-main {
+    #events-main {
         overflow-y: scroll;
     }
 
