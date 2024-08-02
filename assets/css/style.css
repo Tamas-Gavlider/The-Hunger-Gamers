@@ -13,6 +13,8 @@ body {
     color: red;
 }
 
+/* General style for header */
+
 header {
     position: fixed;
     z-index: 99;
@@ -24,6 +26,7 @@ header {
 }
 
 /* Background image for index.html */
+
 #index-body {
     background-image: url('/images/pexels-tombrand-1637438\ \(1\).webp');
     background-size: cover;
@@ -31,7 +34,6 @@ header {
     background-color: black;
     background-attachment: fixed;
     background-position: center;
-
 }
 
 /*Style for index body */
@@ -44,7 +46,6 @@ header {
     text-align: center;
     margin-top: 0;
     height: 70px;
-
 }
 
 #index-main {
@@ -56,14 +57,12 @@ header {
     text-align: center;
     display: flex;
     align-items: center;
-
 }
 
 a {
     color: red;
     text-decoration: none;
 }
-
 
 /* Nav link */
 
@@ -73,8 +72,6 @@ a {
     color: red;
     padding: 10px 0;
     letter-spacing: 2px;
-
-
 }
 
 #nav-link ul {
@@ -129,10 +126,7 @@ a {
     padding-top: 80px;
     color: rgb(227, 227, 26);
     text-align: center;
-
 }
-
-
 
 /* About us and intro section on index.html*/
 
@@ -145,15 +139,12 @@ a {
 #about-us p {
     color: yellow;
     font-size: small;
-
 }
 
 #about-us h3 {
     margin-left: 8%;
     text-align: center;
-
 }
-
 
 #about-us h2 {
     margin-left: 10%;
@@ -164,15 +155,12 @@ a {
 #reason-food h3,
 #reason-time-travel h3 {
     margin-left: 12%;
-
 }
 
 #reason {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
-
-
 }
 
 #introduction {
@@ -183,13 +171,13 @@ a {
 }
 
 /* Last sentence on index html */
+
 #invitation {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     padding-bottom: 5px;
-
 }
 
 #invitation p {
@@ -204,15 +192,12 @@ a {
 
 #events-body {
     background-color: black;
-
 }
 
 .events-title {
     height: 60px;
     margin-bottom: 0;
-
 }
-
 
 /* Event date and details */
 
@@ -220,7 +205,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     margin-top: 125px;
-
 }
 
 #events {
@@ -229,16 +213,13 @@ a {
     flex-direction: column;
     align-content: center;
     text-align: center;
-
     bottom: 200px;
-
 }
 
 #events-h2 {
     height: 40px;
     margin-top: 0;
 }
-
 
 /* BG for details in summary if clicked on it*/
 
@@ -262,12 +243,10 @@ details:hover {
     background-color: red;
 }
 
-
 /*Style for registration html*/
 
 #reg-page {
     background-color: black;
-
 }
 
 #reg-header {
@@ -296,7 +275,6 @@ details:hover {
     margin-top: 68px;
 }
 
-
 #reg-section {
     display: flex;
     flex-direction: column;
@@ -320,7 +298,6 @@ details:hover {
     flex-direction: row;
     justify-content: space-evenly;
     font-size: x-large;
-
 }
 
 #menu-food div {
@@ -329,7 +306,6 @@ details:hover {
 
 #bg-main {
     background-color: black;
-
 }
 
 #menu-food ul {
@@ -339,14 +315,11 @@ details:hover {
     padding: 5px 15px;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 
 .menu {
     background-color: rgb(6, 6, 6, 0.7);
-
 }
-
 
 /* Style for Social Network */
 
@@ -367,7 +340,6 @@ details:hover {
     border-top: 5px solid yellow;
     box-shadow: 0 2px 2px #3a3a3a;
     z-index: 3;
-
 }
 
 #social-network li:hover {
@@ -376,8 +348,7 @@ details:hover {
 
 /* Media query: style for screens betweem 376px*/
 
-
-@media screen and (min-width:376px){
+@media screen and (min-width:376px) {
 
     /*Adjust the events html*/
 
@@ -401,13 +372,11 @@ details:hover {
 
     #email {
         margin-left: 82px;
-
     }
 
     #last-name {
         margin-left: 8px;
     }
-
 }
 
 /* Media query: large or landscape phones (576px and up)*/
@@ -419,7 +388,6 @@ details:hover {
     #events-main {
         align-items: baseline;
         justify-content: space-between;
-
     }
 
     #events {
@@ -427,7 +395,6 @@ details:hover {
         z-index: 2;
         position: relative;
         top: 30px;
-
     }
 
     #events {
@@ -447,8 +414,6 @@ details:hover {
         margin-top: 0;
     }
 
-
-
     /* Adjust the Header and Nav link */
 
     nav {
@@ -463,7 +428,6 @@ details:hover {
     #index-main {
         margin-top: 30px;
     }
-
 
     /*Adjust the menu on menu html*/
 
@@ -498,11 +462,10 @@ details:hover {
         padding-left: 10px;
         width: 100%;
     }
-
-
 }
 
 /*Media query: tablets nad larger screens ( 768px and up)*/
+
 @media screen and (min-width:768px) {
 
     /* Basic adjustments*/
@@ -574,7 +537,6 @@ details:hover {
     #reg-section {
         justify-content: center;
         margin-top: 50px;
-        
     }
 
     #reg-section h2 {
@@ -587,11 +549,10 @@ details:hover {
         width: 100px;
         height: 32px;
     }
-
-
 }
 
 /*Media query: laptops and larger screens ( 1024px and up)*/
+
 @media screen and (min-width:992px) {
 
     /*Adjustment on events html*/
@@ -612,11 +573,6 @@ details:hover {
     #email {
         margin-left: 168px;
     }
-
-    /*Adjustment on registration html*/
-
-
-
 }
 
 /* Media query: Devices 1200px and up*/
@@ -634,7 +590,7 @@ details:hover {
         margin-right: 75px;
     }
 
-    #rabout-us h3{
+    #rabout-us h3 {
         margin-left: 58px;
     }
 
@@ -645,12 +601,14 @@ details:hover {
     #introduction {
         margin-left: 30px;
     }
-
 }
 
 /* Media query: Desktops 1400px and up*/
+
 @media screen and (min-width: 1400px) {
+
     /*Move the section to the center on index html*/
+
     #events-intro {
         font-size: 180%;
     }
@@ -665,9 +623,18 @@ details:hover {
 
     /*Adjusting the text on registration html*/
 
-    #reg-section h2{
+    #reg-section h2 {
         font-size: 210%;
-        
-    }
 
+    }
+}
+
+/* Media query: Desktops 1658px and up*/
+
+@media screen and (min-width: 1658px) {
+    /*Adjustment on events html to have free space on both right/left side*/
+    #events-main {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
