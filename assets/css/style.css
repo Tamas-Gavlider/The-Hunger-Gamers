@@ -623,19 +623,51 @@ details:hover {
 
 @media screen and (min-width: 1200px) {
 
-    /*Bring the reason section to the center*/
+    /*Bring the reason section to the center on index hmtl*/
     #reason {
         flex-direction: column;
         align-items: center;
+        margin-left: 10px;
+    }
+
+    #about-us {
+        margin-right: 75px;
+    }
+
+    #rabout-us h3{
+        margin-left: 58px;
+    }
+
+    #invitation {
+        margin-left: 5%;
+    }
+
+    #introduction {
+        margin-left: 30px;
     }
 
 }
 
 /* Media query: Desktops 1400px and up*/
 @media screen and (min-width: 1400px) {
-    /*Move the section to the center*/
+    /*Move the section to the center on index html*/
     #events-intro {
         font-size: 180%;
+    }
+
+    #reason {
+        margin-left: 30px;
+    }
+
+    #introduction {
+        margin-left: 35px;
+    }
+
+    /*Adjusting the text on registration html*/
+
+    #reg-section h2{
+        font-size: 210%;
+        
     }
 
 }
