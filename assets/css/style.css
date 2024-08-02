@@ -253,8 +253,6 @@ details:hover {
 
 #reg-page {
     background-color: black;
-    position: fixed;
-
 
 }
 
@@ -486,8 +484,9 @@ details:hover {
     }
 
     #reg-section h2 {
-        font-size: medium;
+        font-size: xx-large;
         padding-left: 10px;
+        width: 100%;
     }
 
 
@@ -564,7 +563,7 @@ details:hover {
 
     #reg-section {
         justify-content: center;
-        margin-top: 100px;
+        margin-top: 50px;
         
     }
 
@@ -588,7 +587,6 @@ details:hover {
     /*Adjustment on events html*/
 
     #reg-main {
-        font-size: xxx-large;
         overflow-y: scroll;
     }
 
