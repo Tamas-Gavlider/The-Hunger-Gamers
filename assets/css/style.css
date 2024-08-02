@@ -595,7 +595,11 @@ details:hover {
     }
 
     #last-name {
-        margin-left: 17px;
+        margin-left: 11px;
+    }
+
+    #email {
+        margin-left: 111px;
     }
 
 }
