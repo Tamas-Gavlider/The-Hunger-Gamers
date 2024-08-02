@@ -534,6 +534,10 @@ details:hover {
 
     /* Adjust reg-form on events html*/
 
+    #reg-main {
+        font-size: xx-large;
+    }
+
     #reg-form {
         height: 485px;
     }
@@ -543,7 +547,7 @@ details:hover {
     }
 
     #email {
-        margin-left: 85px;
+        margin-left: 110px;
     }
 
     #last-name {
@@ -575,5 +579,29 @@ details:hover {
         height: 32px;
     }
 
+
+}
+
+/*Media query: laptops and larger screens ( 1024px and up)*/
+@media screen and (min-width:1024px) {
+
+    /*Adjustment on events html*/
+
+    #reg-main {
+        font-size: xxx-large;
+        overflow-y: scroll;
+    }
+
+    #reg-submit {
+        margin-bottom: 50px;
+    }
+
+    #email {
+        margin-left: 168px;
+    }
+
+    #last-name {
+        margin-left: 17px;
+    }
 
 }
