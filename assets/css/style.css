@@ -25,7 +25,7 @@ header {
 
 /* Background image for index.html */
 #index-body {
-    background-image: url('../images/pexels-tombrand-1637438\ \(1\).webp');
+    background-image: url('/images/pexels-tombrand-1637438\ \(1\).webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -293,7 +293,7 @@ details:hover {
 #reg-main {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 95px;
+    margin-top: 68px;
 }
 
 
