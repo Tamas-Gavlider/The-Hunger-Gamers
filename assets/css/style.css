@@ -77,6 +77,11 @@ a {
 
 }
 
+#nav-events {
+    margin-top: 5px;
+    padding-top: 3px;
+}
+
 #nav-link ul {
     list-style: none;
     display: flex;
@@ -452,11 +457,6 @@ details:hover {
         height: 80px;
     }
 
-    .nav-link-evets {
-        padding: 18px;
-    }
-
-
     #index-main {
         margin-top: 30px;
     }
@@ -613,5 +613,11 @@ details:hover {
     /*Adjustment on registration html*/
 
 
+
+}
+
+/* Devices 1200px and wider*/
+
+@media screen and (min-width: 1200px) {
 
 }
