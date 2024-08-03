@@ -28,7 +28,7 @@ header {
 /* Background image for index.html */
 
 #index-body {
-    background-image: url('/images/pexels-tombrand-1637438\ \(1\).webp');
+    background-image: url('images/pexels-tombrand-1637438.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
