@@ -36,6 +36,11 @@ header {
     background-position: center;
 }
 
+#hidden {
+    visibility: hidden;
+    margin-top: 0;
+}
+
 /*Style for index body */
 
 #index-body p {
