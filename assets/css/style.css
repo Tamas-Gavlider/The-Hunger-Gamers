@@ -28,7 +28,7 @@ header {
 /* Background image for index.html */
 
 #index-body {
-    background-image: url('images/pexels-tombrand-1637438.webp');
+    background-image: url('../images/pexels-tombrand-1637438.webp');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -287,6 +287,13 @@ details:hover {
 
 /* Menu html*/
 
+#bg-main {
+    background-image: url('../images/pexels-a-darmel-6643714.webp');
+    background-attachment: scroll;
+    background-position: bottom;
+
+}
+
 #main-menu {
     padding-bottom: 20px;
     margin-top: 125px;
@@ -302,10 +309,6 @@ details:hover {
 
 #menu-food div {
     min-width: 280px;
-}
-
-#bg-main {
-    background-color: black;
 }
 
 #menu-food ul {
@@ -632,6 +635,7 @@ details:hover {
 /* Media query: Desktops 1658px and up*/
 
 @media screen and (min-width: 1658px) {
+
     /*Adjustment on events html to have free space on both right/left side*/
     #events-main {
         padding-left: 10px;
