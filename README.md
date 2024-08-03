@@ -46,3 +46,25 @@ The fourth page is a confirmation page which is shown once a user submits the fo
   * With a Nintendo Nes console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons". 
 
 
+# Technologies used
+
+***
+
+## Languages Used
+
+HTML and CSS were used to create this website.
+
+## Frameworks, Libraries & Programs Used 
+
+Git - for Version Control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the icon logo.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+
+
