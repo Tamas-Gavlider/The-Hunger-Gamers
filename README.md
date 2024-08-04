@@ -26,16 +26,16 @@ and symbolic meanings:
 
 These colours together create a bold, and energetic vibe.
 
-## Typography 
+### Typography 
 
 Google Font Silkscreen is being used for the website. The pixelated style used on<br>
 webpage refers to classic video games, evoking nostalgia and retro feel.
 
-## Images
+### Images
 
 All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
-## Features 
+### Features 
 
 The website is comprised of four pages, three of which are accessible from the navigation menu (home page, menu page & registration page).<br>
 The fourth page is a confirmation page which is shown once a user submits the form on the events page.
@@ -46,15 +46,17 @@ The fourth page is a confirmation page which is shown once a user submits the fo
   * With a Nintendo Nes console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons". 
 
 
-# Technologies used
+## Technologies used
 
 ***
 
-## Languages Used
+### Languages Used
 
 HTML and CSS were used to create this website.
 
-## Frameworks, Libraries & Programs Used 
+### Frameworks, Libraries & Programs Used 
+
+Balsamiq - Used to create wireframes.
 
 Git - for Version Control.
 
@@ -65,6 +67,49 @@ Google Fonts - To import the fonts used on the website.
 Font Awesome - For the icon logo.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices.
+
+[Cloudconvert](https://cloudconvert.com/jpg-to-webp) - To convert images to webp format.
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+1. Find the repository for this project, The-Hunger-Gamers.
+1. Click on the Settings link.
+1. Click on the Pages link in the left hand side navigation bar under "Code and Automation".
+1. In the Source section, choose main from the drop down select branch menu. Select Root  from the drop down select folder menu.
+1. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+## Local Development
+
+**How to Fork**
+
+To fork the The-Hunger-Gamers repository:
+
+1. Log in (or sign up) to Github.
+1. Go to the repository for this project, Tamas-Gavlider/The-Hunger-Gamers.
+1. Click the Fork button in the top right corner.
+
+**How to Clone**
+
+To clone the The-Hunger-Gamers repository:
+
+1. Log in (or sign up) to Github.
+1. Go to the repository for this project, Tamas-Gavlider/The-Hunger-Gamers.
+1. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+1. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+1. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing
+
+
+
+
 
 
 
