@@ -30,9 +30,11 @@ These colours together create a bold, and energetic vibe.
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page Wireframe](/docs/wireframe/Index.html%20phones&tablet.png) for phone and tablet.
-[Home Page Wireframe](/docs/esting/wireframe/Index%20desktop.png) for desktop.
-[Menu Page Wireframe] ()
+[Home Page for phone and tablet](/docs/wireframe/Index.html%20phones&tablet.png)<br>
+[Home Page for desktop](/docs/wireframe/Index%20desktop.png)<br>
+[Menu](/docs/wireframe/Menu.png)<br>
+[Events](/docs/wireframe/Events.png)<br>
+[Registration](/docs/wireframe/Registration.png)
 
 ### Typography 
 
@@ -112,6 +114,40 @@ To clone the The-Hunger-Gamers repository:
 1. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
+
+I have used Chrome Developer tool while building the web page and troubleshoot any issues immediately. 
+
+The following issues were raised during my mid project meeting with my mentor:
+
+   * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
+   * The source code contained too many unnecessary whitespace.
+   * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time. 
+
+   ## W3C Validator
+
+   The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found, however there was a warning sign due to the imported google font.
+  * [Index HTML](/docs/testing/validator/Index.html-%20validator.png)<br>
+  * [Menu HTML](/docs/testing/validator/Menu.html-%20validator.png)<br>
+  * [Events HTML](/docs/testing/validator/Events.html-%20validator.png)<br>
+  * [Registration HTML](/docs/testing/validator/Registration.html-validator.png)<br>
+  * [CSS](/docs/testing/validator/CSS%20validator.png)<br>
+  * [Warning sign](/docs/testing/validator/Warning%20sign.png)<br>
+
+  ## Full Testing
+
+  I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
+  I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.<br>
+  [Tested screens](/docs/testing/Tested%20screen%20sizes.png)<br>
+  Links:
+  1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+  1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+  1. Test each link on the events page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+  1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+  Registration form:
+  1. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to select one of the options from the radio button.
+
+
+
 
 
 
