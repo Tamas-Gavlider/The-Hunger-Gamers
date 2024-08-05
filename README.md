@@ -93,7 +93,7 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 1. In the Source section, choose main from the drop down select branch menu. Select Root  from the drop down select folder menu.
 1. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-## Local Development
+### Local Development
 
 **How to Fork**
 
@@ -121,9 +121,12 @@ The following issues were raised during my mid project meeting with my mentor:
 
    * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
    * The source code contained too many unnecessary whitespace.
-   * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time. 
+   * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
+  ### Known Bugs 
 
-   ## W3C Validator
+   * The background image on index html is fixed on mobile phones. It works fine in Chrome Developer Tool but not on physical phones. It was tested on Iphone 11 and Iphone 6.
+
+  ### W3C Validator
 
    The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found, however there was a warning sign due to the imported google font.
   * [Index HTML](/docs/testing/validator/Index.html-%20validator.png)<br>
@@ -132,8 +135,34 @@ The following issues were raised during my mid project meeting with my mentor:
   * [Registration HTML](/docs/testing/validator/Registration.html-validator.png)<br>
   * [CSS](/docs/testing/validator/CSS%20validator.png)<br>
   * [Warning sign](/docs/testing/validator/Warning%20sign.png)<br>
+  ### Ligthouse
 
-  ## Full Testing
+  I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+  #### Index page
+
+  The performance was really low for mobile phones due to the google fonts.<br>
+  I have tested the page without the google fonts, and the performance would have been 100.<br>
+  Since the choosen font style is critical due to the theme of the web page, it will not be changed. 
+  
+  [Index page for desktop](/docs/testing/lighthouse/Lighthouse-index.html-desktop.png)<br>
+  [Index page for mobile](/docs/testing/lighthouse/Ligthouse-index.html-mobile.png)<br>
+  [Index page for mobile warning](/docs/testing/lighthouse/Lighthouse-index.html-mobile-warning.png)<br>
+  [Index page for mobile without google fonts](/docs/testing/lighthouse/Lighthouse-index.html%20with%20google%20fonts%20removed.png)<br>
+
+  #### Menu page
+
+  [Menu page for desktop](/docs/testing/lighthouse/Lighthouse-Menu.html%20-%20desktop.png)<br>
+  [Menu page for mobile](/docs/testing/lighthouse/Lighthouse-Menu.html-mobile.png)<br>
+
+  #### Events page
+
+  [Events page for desktop](/docs/testing/lighthouse/Lighthouse-events.html%20-%20desktop.png)<br>
+  [Events page for mobile](/docs/testing/lighthouse/Lighthouse-events.html-mobile.png)<br>
+  [Events page for mobile without google fonts](/docs/testing/lighthouse/Lighthouse-events.html%20with%20google%20fonts%20removed.png)
+
+
+  ### Full Testing
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
   I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.<br>
@@ -142,9 +171,10 @@ The following issues were raised during my mid project meeting with my mentor:
   1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
   1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
   1. Test each link on the events page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-  1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-  Registration form:
-  1. I tried to submit the form without filling in any input fields. The form worked correctly and directed users to fill in the name field. I then filled in the name field and tried to submit the form. Again the form worked correctly and directed the user to fill out the email field. I filled out the name and email forms and tried to submit the form. The form worked correctly and asked the user to select one of the options from the radio button.
+  1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.<br>
+
+Registration form:
+  1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.
 
 
 

@@ -1,6 +1,7 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
 
+
 /* General style for body */
 
 body {
@@ -28,6 +29,12 @@ header {
 /* Background image for index.html */
 
 #index-body {
+    
+    background-color: black;
+   
+}
+
+.bg {
     background-image: url('../images/pexels-tombrand-1637438.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,6 +42,7 @@ header {
     background-attachment: fixed;
     background-position: center;
 }
+
 
 #hidden {
     visibility: hidden;
