@@ -1,7 +1,7 @@
 
 # Hunger Gamers
 
-Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying our delicious food. The weekend events will guarantee the fun for everyone.
+Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying the delicious food. The weekend events will guarantee the fun for everyone.
 
 ![Responsivenes](/docs/testing/Screenshot%202024-08-03%20at%2012.47.14.png)
 
@@ -13,7 +13,7 @@ Hunger Gamers is a responsive website allowing users to view on range of devices
 * Create a community where gaming enthusiasts can come together.
 * Provide details of the upcoming events.
 * Offer delicious food.
-* Connect people through social network platforms
+* Connect people through social network platforms.
 
 ## Design
 
@@ -54,7 +54,21 @@ The fourth page is a confirmation page which is shown once a user submits the fo
   * A footer which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.
 * Home page
   * With a Nintendo Nes console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons". 
+  * Reasons why the user should visit the place.
+  * Short introduction and contact email.
+* Menu page
+  * List of available dishes, drinks and snacks
+* Events page
+  * The upcoming events with dates and details.
+  * Registration form with input fields and radio buttons.  
+* Registration page
+  * A confirmation message that the registration was successful. 
 
+
+### Content
+
+  Content for the website was written by Tamas Gavlider. All the codes were written by me without using<br>
+  others' codes or tutorials. 
 
 ## Technologies used
 
@@ -121,11 +135,14 @@ The following issues were raised during my mid project meeting with my mentor:
 
    * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
    * The source code contained too many unnecessary whitespace.
+   * Removing the method attribute from the Form element since the date will not sent anywhere.
    * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
+
   ### Known Bugs 
 
-   * The background image on index html is fixed on mobile phones. It works fine in Chrome Developer Tool but not on physical phones. It was tested on Iphone 11 and Iphone 6.
-
+   * The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>
+   The background image will not remain in fixed position so if the user scroll down the image will disappear.
+   
   ### W3C Validator
 
    The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found, however there was a warning sign due to the imported google font.
@@ -157,10 +174,16 @@ The following issues were raised during my mid project meeting with my mentor:
 
   #### Events page
 
+  The performance was really low due to the google fonts, however at this time for desktop. The performance would have been 100 without the google fonts.
+
   [Events page for desktop](/docs/testing/lighthouse/Lighthouse-events.html%20-%20desktop.png)<br>
   [Events page for mobile](/docs/testing/lighthouse/Lighthouse-events.html-mobile.png)<br>
-  [Events page for mobile without google fonts](/docs/testing/lighthouse/Lighthouse-events.html%20with%20google%20fonts%20removed.png)
+  [Events page for desktop without google fonts](/docs/testing/lighthouse/Lighthouse-events.html-desktop-google%20fonts%20removed.png)
 
+  #### Registration page
+
+  [Registration page for desktop](/docs/testing/lighthouse/Lighthouse-registration.html-desktop.png)<br>
+  [Registration page for mobile](/docs/testing/lighthouse/Lighthouse-registration.html%20-%20mobile.png)
 
   ### Full Testing
 

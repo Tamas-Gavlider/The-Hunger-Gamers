@@ -29,12 +29,6 @@ header {
 /* Background image for index.html */
 
 #index-body {
-    
-    background-color: black;
-   
-}
-
-.bg {
     background-image: url('../images/pexels-tombrand-1637438.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,7 +36,6 @@ header {
     background-attachment: fixed;
     background-position: center;
 }
-
 
 #hidden {
     visibility: hidden;
@@ -592,7 +585,7 @@ details:hover {
 
     /*Adjustment on registration html font size*/
 
-    #reg-section h2{
+    #reg-section h2 {
         font-size: 195%;
     }
 }
