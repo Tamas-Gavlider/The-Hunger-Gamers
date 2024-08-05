@@ -362,7 +362,6 @@ details:hover {
     /*Adjust the events html*/
 
     #events-main {
-        justify-content: space-evenly;
         font-size: x-large;
     }
 
@@ -549,7 +548,7 @@ details:hover {
     }
 
     #reg-section h2 {
-        font-size: xxx-large;
+        font-size: 160%;
     }
 
     /*Makes the input submit larger*/
@@ -560,7 +559,7 @@ details:hover {
     }
 }
 
-/*Media query: laptops and larger screens ( 1024px and up)*/
+/*Media query: laptops and larger screens ( 992px and up)*/
 
 @media screen and (min-width:992px) {
 
@@ -581,6 +580,12 @@ details:hover {
 
     #email {
         margin-left: 168px;
+    }
+
+    /*Adjustment on registration html font size*/
+
+    #reg-section h2{
+        font-size: 195%;
     }
 }
 
