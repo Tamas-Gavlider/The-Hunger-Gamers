@@ -3,7 +3,7 @@
 
 Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying our delicious food. The weekend events will guarantee the fun for everyone.
 
-![Responsivenes](/assets/images/Screenshot%202024-08-03%20at%2012.47.14.png)
+![Responsivenes](/docs/testing/Screenshot%202024-08-03%20at%2012.47.14.png)
 
 [View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
 
@@ -26,6 +26,14 @@ and symbolic meanings:
 
 These colours together create a bold, and energetic vibe.
 
+## Wireframe 
+
+Wireframes were created for mobile, tablet and desktop.
+
+[Home Page Wireframe](/docs/wireframe/Index.html%20phones&tablet.png) for phone and tablet.
+[Home Page Wireframe](/docs/esting/wireframe/Index%20desktop.png) for desktop.
+[Menu Page Wireframe] ()
+
 ### Typography 
 
 Google Font Silkscreen is being used for the website. The pixelated style used on<br>
@@ -47,8 +55,6 @@ The fourth page is a confirmation page which is shown once a user submits the fo
 
 
 ## Technologies used
-
-***
 
 ### Languages Used
 
