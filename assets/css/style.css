@@ -8,6 +8,10 @@
     background-color: black;
 }
 
+.red-text {
+    color: red;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -15,7 +19,6 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Silkscreen', sans-serif;
-    color: red;
 }
 
 /* General style for header */
@@ -74,10 +77,6 @@ a {
 }
 
 /* Nav link */
-
-.red-text {
-    color: red;
-}
 
 #nav-link {
     display: flex;
