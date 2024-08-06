@@ -29,7 +29,7 @@ header {
     background-color: black;
     height: 125px;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 1px 1px #3a3a3a;
     border-bottom: 2px solid yellow;
 }
 
@@ -206,6 +206,7 @@ a {
 
 #events-main {
     margin-top: 125px;
+    background-color: rgb(80, 76, 76);
 }
 
 #events {
