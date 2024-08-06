@@ -651,4 +651,36 @@ details:hover {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    /*Adjust index html*/
+
+    #index-main p {
+        font-size: xxx-large;
+    }
+
+    #events-intro h2 {
+        font-size: 200%;
+    }
+
+    #about-us  {
+        font-size: 200%;
+    }
+
+    #about-us h2 {
+        font-size: 210%;
+    }
+
+    /*Adjustment on registration html*/
+    #reg-section {
+        font-size: 150%;
+    }
+
+    /*Footer adjustment*/
+
+    #social-network {
+        height: 85px;
+    }
+    #social-network li {
+        font-size: 150%;
+    }
 }
