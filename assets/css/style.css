@@ -33,49 +33,6 @@ header {
     border-bottom: 2px solid yellow;
 }
 
-/* Background image for index.html */
-
-#index-body {
-    background-image: url('../images/pexels-tombrand-1637438.webp');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-}
-
-#hidden {
-    visibility: hidden;
-    margin-top: 0;
-}
-
-/*Style for index body */
-
-#index-body p {
-    text-align: center;
-}
-
-#title {
-    text-align: center;
-    margin-top: 0;
-    height: 70px;
-}
-
-#index-main {
-    padding-bottom: 10px;
-    margin-top: 80px;
-}
-
-#logo {
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
-
-a {
-    color: red;
-    text-decoration: none;
-}
-
 /* Nav link */
 
 #nav-link {
@@ -111,6 +68,56 @@ a {
     padding-top: 3px;
 }
 
+/* Background image for index.html */
+
+#index-body {
+    background-image: url('../images/pexels-tombrand-1637438.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* bg color to cover the bg image*/
+
+.bg-grey {
+    background-color: rgba(49, 49, 49, 0.7);
+}
+
+/*Hid header on index html*/
+#hidden {
+    visibility: hidden;
+    margin-top: 0;
+}
+
+/*Style for index body */
+
+#index-body p {
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    margin-top: 0;
+    height: 70px;
+}
+
+#index-main {
+    padding-bottom: 10px;
+    margin-top: 80px;
+}
+
+#logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
 /* p on index.html */
 
 #intro {
@@ -132,7 +139,7 @@ a {
     padding-top: 80px;
     color: rgb(227, 227, 26);
     text-align: center;
-}
+} 
 
 /* About us and intro section on index.html*/
 
