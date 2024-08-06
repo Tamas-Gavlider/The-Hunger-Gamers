@@ -12,10 +12,6 @@
     color: red;
 }
 
-.black-text {
-    color:black;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -198,9 +194,13 @@ a {
     margin-bottom: 0;
 }
 
+.yellow {
+    color:rgb(255, 255, 57);
+}
+
 /* Event date and details */
 #events-body{
-    background-color: rgb(213, 207, 207);
+    background-color: rgb(83, 83, 83);
 }
 
 .events-class {

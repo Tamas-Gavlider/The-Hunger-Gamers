@@ -190,6 +190,10 @@ The following issues were raised during my mid project meeting with my mentor:
 
   All the 4 pages were tested at [Wave](https://wave.webaim.org/).
 
+  [Index page](/docs/testing/Wave/Wave%20report-index.png)<br>
+  [Menu page](/docs/testing/Wave/Wave%20report-menu.png)<br>
+  [Registration page](/docs/testing/Wave/Wave%20report-registration.png)<br>
+
   ### Full Testing
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
