@@ -186,6 +186,10 @@ The following issues were raised during my mid project meeting with my mentor:
   [Registration page for desktop](/docs/testing/lighthouse/Lighthouse-registration.html-desktop.png)<br>
   [Registration page for mobile](/docs/testing/lighthouse/Lighthouse-registration.html%20-%20mobile.png)
 
+  ### Wave
+
+  All the 4 pages were tested at [Wave](https://wave.webaim.org/).
+
   ### Full Testing
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
