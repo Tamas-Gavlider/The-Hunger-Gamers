@@ -142,7 +142,8 @@ The following issues were raised during my mid project meeting with my mentor:
   ### Known Bugs 
 
    * The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>
-   The background image will not remain in fixed position so if the user scroll down the image will disappear.
+   This issue is due to lack support for background-attachment in Safari on iOS devices.<br>
+   This bugs does not prevent the user to navigate through the web page.
    
   ### W3C Validator
 

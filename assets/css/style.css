@@ -195,12 +195,12 @@ a {
 }
 
 .yellow {
-    color:rgb(255, 255, 57);
+    color:yellow;
 }
 
 /* Event date and details */
 #events-body{
-    background-color: rgb(83, 83, 83);
+    background-color: rgb(45, 44, 44);
 }
 
 .events-class {
