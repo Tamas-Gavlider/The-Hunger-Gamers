@@ -3,7 +3,7 @@
 
 Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying the delicious food. The weekend events will guarantee the fun for everyone.
 
-![Responsivenes](/docs/testing/Screenshot%202024-08-03%20at%2012.47.14.png)
+![Responsivenes](/docs/testing/Screenshot%202024-08-06%20at%2014.45.00.png)
 
 [View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
 
@@ -67,7 +67,7 @@ The fourth page is a confirmation page which is shown once a user submits the fo
 
 ### Content
 
-  Content for the website was written by Tamas Gavlider. All the codes were written by me without using<br>
+  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using<br>
   others' codes or tutorials. 
 
 ## Technologies used
@@ -137,6 +137,7 @@ The following issues were raised during my mid project meeting with my mentor:
    * The source code contained too many unnecessary whitespace.
    * Removing the method attribute from the Form element since the date will not sent anywhere.
    * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
+   * Collect elements into class which share the same attributes.
 
   ### Known Bugs 
 
@@ -176,7 +177,7 @@ The following issues were raised during my mid project meeting with my mentor:
 
   The performance was really low due to the google fonts, however at this time for desktop. The performance would have been 100 without the google fonts.
 
-  [Events page for desktop](/docs/testing/lighthouse/Lighthouse-events.html%20-%20desktop.png)<br>
+  [Events page for desktop](/docs/testing/lighthouse/Lighthouse-event.html-desktop.png)<br>
   [Events page for mobile](/docs/testing/lighthouse/Lighthouse-events.html-mobile.png)<br>
   [Events page for desktop without google fonts](/docs/testing/lighthouse/Lighthouse-events.html-desktop-google%20fonts%20removed.png)
 
