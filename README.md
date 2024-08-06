@@ -3,7 +3,7 @@
 
 Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying the delicious food. The weekend events will guarantee the fun for everyone.
 
-![Responsivenes](/docs/testing/Screenshot%202024-08-06%20at%2014.45.00.png)
+![Responsivenes](/docs/testing/AmIresponsive%20ss.png)
 
 [View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
 
@@ -23,6 +23,7 @@ and symbolic meanings:
 * **Black:** Often associated with elegance, and modernity.
 * **Red:** Conveys excitement, energy, and passion.
 * **Yellow:** Represents happiness, optimism, and energy.
+* **Gray** It was used as the background color on Events html due to contrast errors.
 
 These colours together create a bold, and energetic vibe.
 
@@ -176,11 +177,12 @@ The following issues were raised during my mid project meeting with my mentor:
 
   #### Events page
 
-  The performance was really low due to the google fonts, however at this time for desktop. The performance would have been 100 without the google fonts.
+  The performance was really low due to the google fonts, however at this time for desktop. The performance would have been 100 without the google fonts. I was able to improve the performance by changing the background color. 
 
   [Events page for desktop](/docs/testing/lighthouse/Lighthouse-event.html-desktop.png)<br>
   [Events page for mobile](/docs/testing/lighthouse/Lighthouse-events.html-mobile.png)<br>
-  [Events page for desktop without google fonts](/docs/testing/lighthouse/Lighthouse-events.html-desktop-google%20fonts%20removed.png)
+  [Events page for desktop without google fonts](/docs/testing/lighthouse/Lighthouse-events.html-desktop-google%20fonts%20removed.png)<br>
+  [Events page for desktop with new BG color](/docs/testing/lighthouse/Lighthouse-events%20html%20-%20desktop.png)
 
   #### Registration page
 
@@ -194,6 +196,7 @@ The following issues were raised during my mid project meeting with my mentor:
   [Index page](/docs/testing/Wave/Wave%20report-index.png)<br>
   [Menu page](/docs/testing/Wave/Wave%20report-menu.png)<br>
   [Registration page](/docs/testing/Wave/Wave%20report-registration.png)<br>
+  [Events page](/docs/testing/Wave/Wave%20-%20events%20html.png)<br>
 
   ### Full Testing
 
