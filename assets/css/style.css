@@ -12,6 +12,10 @@
     color: red;
 }
 
+.black-text {
+    color:black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -198,6 +202,9 @@ a {
 }
 
 /* Event date and details */
+#events-body{
+    background-color: rgb(147, 144, 144);
+}
 
 .events-class {
     display: flex;
@@ -206,7 +213,6 @@ a {
 
 #events-main {
     margin-top: 125px;
-    background-color: rgb(80, 76, 76);
 }
 
 #events {
