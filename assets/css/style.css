@@ -4,6 +4,10 @@
 
 /* General style for body */
 
+.bg-color {
+    background-color: black;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +36,6 @@ header {
     background-image: url('../images/pexels-tombrand-1637438.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
     background-attachment: fixed;
     background-position: center;
 }
@@ -72,10 +75,13 @@ a {
 
 /* Nav link */
 
+.red-text {
+    color: red;
+}
+
 #nav-link {
     display: flex;
     justify-content: space-around;
-    color: red;
     padding: 10px 0;
     letter-spacing: 2px;
 }
@@ -92,7 +98,6 @@ a {
 }
 
 #nav-link a {
-    color: red;
     text-decoration: none;
 }
 
@@ -110,8 +115,6 @@ a {
 /* p on index.html */
 
 #intro {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin-top: 25px;
@@ -126,8 +129,6 @@ a {
 /* Style for events intro */
 
 #events-intro {
-    display: flex;
-    flex-wrap: wrap;
     font-size: 130%;
     padding-top: 80px;
     color: rgb(227, 227, 26);
@@ -136,13 +137,16 @@ a {
 
 /* About us and intro section on index.html*/
 
-#about-us {
+.intro-class {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
-#about-us p {
+#about-us {
+    flex-direction: column;
+}
+
+.yellow-text {
     color: yellow;
     font-size: small;
 }
@@ -158,47 +162,28 @@ a {
     text-align: center;
 }
 
-#reason-food h3,
-#reason-time-travel h3 {
+.reason {
     margin-left: 12%;
 }
 
 #reason {
-    display: flex;
     align-self: center;
-    flex-wrap: wrap;
 }
 
 #introduction {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
 }
 
 /* Last sentence on index html */
 
 #invitation {
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
     padding-bottom: 5px;
+    font-size: small;
 }
-
-#invitation p {
-    color: red;
-}
-
-#email-contact {
-    color: red;
-}
-
 /*BG img for events html*/
-
-#events-body {
-    background-color: black;
-}
 
 .events-title {
     height: 60px;
@@ -207,18 +192,18 @@ a {
 
 /* Event date and details */
 
-#events-main {
+.events-class {
     display: flex;
     flex-wrap: wrap;
+}
+
+#events-main {
     margin-top: 125px;
 }
 
 #events {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-content: center;
-    text-align: center;
     bottom: 200px;
 }
 
@@ -251,13 +236,12 @@ details:hover {
 
 /*Style for registration html*/
 
-#reg-page {
-    background-color: black;
+.reg-class {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #reg-header {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -266,8 +250,8 @@ details:hover {
 }
 
 #reg-title {
-    text-align: center;
     display: flex;
+    text-align: center;
     height: 0px;
     margin-top: 0px;
     padding-bottom: 50px;
@@ -276,15 +260,11 @@ details:hover {
 /* Registration html main content */
 
 #reg-main {
-    display: flex;
-    flex-wrap: wrap;
     margin-top: 68px;
 }
 
 #reg-section {
-    display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     margin-top: 100px;
     color: yellow;
     text-align: center;
@@ -297,8 +277,6 @@ details:hover {
     background-image: url('../images/pexels-a-darmel-6643714.webp');
     background-attachment: scroll;
     background-position: bottom;
-    background-color: black;
-
 }
 
 #main-menu {
@@ -378,6 +356,8 @@ details:hover {
     #reg-section h2 {
         font-size: xx-large;
     }
+
+    /*Set the input fields position to mach with the first name input field*/
 
     #email {
         margin-left: 82px;
