@@ -183,6 +183,9 @@ a {
     font-size: small;
 }
 /*BG img for events html*/
+.yellow {
+    color:yellow
+}
 
 .text-orangered {
     color: orangered;

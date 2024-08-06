@@ -23,6 +23,7 @@ and symbolic meanings:
 * **Black:** Often associated with elegance, and modernity.
 * **Red:** Conveys excitement, energy, and passion.
 * **Yellow:** Represents happiness, optimism, and energy.
+* **Orangered** This color was used only on the Events page due to contrast errors.
 
 These colours together create a bold, and energetic vibe.
 
