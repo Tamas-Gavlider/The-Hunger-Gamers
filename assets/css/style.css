@@ -182,13 +182,14 @@ a {
     padding-bottom: 5px;
     font-size: small;
 }
-/*BG img for events html*/
+
+/*Style on events hmtml */
 .yellow {
-    color:yellow
+    color:red;
 }
 
-.text-orangered {
-    color: orangered;
+.event {
+    color: yellow;
 }
 
 .events-title {
@@ -221,7 +222,7 @@ a {
 /* BG for details in summary if clicked on it*/
 
 details:hover {
-    background-color: yellow;
+    background-color: red;
     z-index: 5;
 }
 

@@ -15,7 +15,7 @@
 
 </head>
 
-<body id="events-body" class="bg-color text-orangered"> 
+<body id="events-body" class="bg-color red-text"> 
     <!-- Header -->
     <header id="header-events">
         <!--Title-->
@@ -35,18 +35,18 @@
         <!-- Event dates and details -->
         <section id="events" class="events-class">
             <div>
-                <h2 id="events-h2" class="yellow">Upcoming Events</h2>
+                <h2 id="events-h2" class="red-text">Upcoming Events</h2>
                 <br>
             </div>
             <div id="event-details">
-                <span>Aug 9 2024 </span>
+                <span class="event">Aug 9 2024 </span>
                 <details class="event">
                     <summary>Resident Evil Speedrun</summary>
                         <p>Team up with your friends and beat the collection of Residen
                         Evil games
                         as fast as you can. The quickest team gets free dinner for a week.</p>
                 </details>
-                <span>Aug 16 2024</span>
+                <span class="event">Aug 16 2024</span>
                 <details class="event">
                     <summary>
                         FIFA tournament
@@ -54,7 +54,7 @@
                     <p>Join our first FIFA tournament where the winner will go home with a PS5.
                         Maximum of 128 players can register. Register now to secure your spot!</p>
                 </details>
-                <span>Aug 23 2024</span>
+                <span class="event">Aug 23 2024</span>
                 <details class="event">
                     <summary>
                         Dark Souls Marathon
@@ -62,7 +62,7 @@
                     <p>Are you a fan of FromSoftware games? Then your place is here.
                         The player who can play any of the Dark Souls game at least 12 hours will be rewarded.</p>
                 </details>
-                <span>Aug 30 2024</span>
+                <span class="event">Aug 30 2024</span>
                 <details class="event">
                     <summary>
                         Retro Weekend
@@ -76,33 +76,33 @@
         <!-- Registration form -->
         <section id="register">
             <form action="registration.html" id="reg-form">
-                <h2 class="yellow">Register</h2>
-                <label for="first-name">First Name</label>
+                <h2 class="red-text">Register</h2>
+                <label for="first-name" class="event">First Name</label>
                 <input type="text" id="first-name" required>
                 <br>
-                <label for="last-name">Last Name</label>
+                <label for="last-name" class="event">Last Name</label>
                 <input type="text" id="last-name" placeholder="Not required">
                 <br>
-                <label for="email">Email</label>
+                <label for="email" class="event">Email</label>
                 <input type="email" id="email" required>
                 <br>
                 <!-- Radio buttons for event -->
                 <div>
                     <div>
                         <input type="radio" id="resi-radio" name="event-type" required>
-                        <label for="resi-radio">Resident Evil Speedrun</label>
+                        <label for="resi-radio" class="event">Resident Evil Speedrun</label>
                     </div>
                     <div>
                         <input type="radio" id="fifa-radio" value="fifa" name="event-type" required>
-                        <label for="fifa-radio">Fifa</label>
+                        <label for="fifa-radio" class="event">Fifa</label>
                     </div>
                     <div>
                         <input type="radio" id="darksouls-radio" value="darksouls" name="event-type" required>
-                        <label for="darksouls-radio">Dark Souls Marathon</label>
+                        <label for="darksouls-radio" class="event">Dark Souls Marathon</label>
                     </div>
                     <div>
                         <input type="radio" id="retro-radio" value="retro-weekend" name="event-type" required>
-                        <label for="retro-radio">Retro Weekend</label>
+                        <label for="retro-radio" class="event">Retro Weekend</label>
                     </div>
                 </div>
                 <input type="submit" value="Register" id="reg-submit">
