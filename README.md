@@ -42,10 +42,6 @@ Wireframes were created for mobile, tablet and desktop.
 Google Font Silkscreen is being used for the website. The pixelated style used on<br>
 webpage refers to classic video games, evoking nostalgia and retro feel.
 
-### Images
-
-All background images were downloaded from [Pexels.com](https://www.pexels.com).
-
 ### Features 
 
 The website is comprised of four pages, three of which are accessible from the navigation menu (home page, menu page & registration page).<br>
@@ -212,7 +208,11 @@ The following issues were raised during my mid project meeting with my mentor:
 Registration form:
   1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.
 
+### Content
 
+### Images
+
+All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
 
 
