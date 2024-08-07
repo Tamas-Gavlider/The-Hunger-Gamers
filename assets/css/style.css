@@ -139,7 +139,7 @@ a {
     padding-top: 80px;
     color: rgb(227, 227, 26);
     text-align: center;
-} 
+}
 
 /* About us and intro section on index.html*/
 
@@ -202,11 +202,11 @@ a {
 }
 
 .yellow {
-    color:yellow;
+    color: yellow;
 }
 
 /* Event date and details */
-#events-body{
+#events-body {
     background-color: rgb(45, 44, 44);
 }
 
@@ -248,7 +248,7 @@ details:hover {
 }
 
 #reg-submit {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     background-color: red;
 }
 
@@ -622,6 +622,10 @@ details:hover {
 
     /*Move the section to the center on index html*/
 
+    #intro {
+        margin-left: 45px;
+    }
+
     #events-intro {
         font-size: 180%;
     }
@@ -654,6 +658,11 @@ details:hover {
 
     /*Adjust index html*/
 
+    #index-main {
+        margin-bottom: 20px;
+        margin-top: 70px;
+    }
+
     #index-main p {
         font-size: xxx-large;
     }
@@ -662,7 +671,7 @@ details:hover {
         font-size: 200%;
     }
 
-    #about-us  {
+    #about-us {
         font-size: 200%;
     }
 
@@ -680,7 +689,75 @@ details:hover {
     #social-network {
         height: 85px;
     }
+
     #social-network li {
         font-size: 150%;
+    }
+
+    /*Header and Nav link*/
+
+    header {
+        height: 175px;
+    }
+
+    #title {
+        font-size: 300%;
+        padding-bottom: 15px;
+    }
+
+    #nav-link {
+        font-size: xxx-large;
+    }
+
+    /*Adjustment on menu html*/
+
+    #main-menu {
+        margin-top: 175px;
+        margin-bottom: 40px;
+    }
+
+    /*Adjustment on event*/
+
+    #events-main {
+        font-size: 160%;
+    }
+
+    #last-name {
+        margin-left: 20px;
+    }
+
+    #email {
+        margin-left: 183px;
+    }
+
+    /*Adjustment on title and nav link*/
+
+    /*Registration html push the nav link closer to border*/
+
+    #reg-nav {
+        bottom: 60px;
+    }
+
+    #reg-title{
+        font-size: 300%;
+    }
+
+    #reg-header {
+        height: 175px;
+    }
+}
+
+/* Media query: Desktops 2300px and up*/
+
+@media screen and (min-width: 2300px) {
+    /*Reduce the empty spaces between the reg details and form*/
+    #events-main {
+        font-size: 200%;
+    }
+    #email {
+        margin-left: 223px;
+    }
+    #last-name{
+        margin-left: 23px;
     }
 }

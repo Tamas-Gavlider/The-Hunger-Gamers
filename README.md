@@ -210,7 +210,7 @@ Registration form:
 
 ### Content
 
-### Images
+#### Images
 
 All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
