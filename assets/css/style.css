@@ -158,12 +158,12 @@ a {
 }
 
 #about-us h3 {
-    margin-left: 8%;
+    margin-left: auto;
     text-align: center;
 }
 
 #about-us h2 {
-    margin-left: 10%;
+    margin-left: 7%;
     font-size: xx-large;
     text-align: center;
 }
@@ -205,7 +205,7 @@ a {
     color: yellow;
 }
 
-/* Event date and details */
+/* Event dates and details */
 #events-body {
     background-color: rgb(45, 44, 44);
 }
@@ -247,8 +247,10 @@ details:hover {
     margin-left: 5px;
 }
 
+/*Input submit button*/
+
 #reg-submit {
-    margin-bottom: 40px;
+    margin-bottom: 45px;
     background-color: red;
 }
 
@@ -421,6 +423,14 @@ details:hover {
         margin-top: 0;
     }
 
+    #events-intro h2 {
+        margin-left: 25px;
+    }
+
+    #reason-time-travel {
+        margin-left: 32px;
+    }
+
     /* Adjust the Header and Nav link */
 
     nav {
@@ -439,7 +449,7 @@ details:hover {
     /*Adjust the menu on menu html*/
 
     #main-menu {
-        margin-top: 82px;
+        margin-top: 78px;
     }
 
     #menu-food {
@@ -535,12 +545,6 @@ details:hover {
 
     /*Adjustment on registration html*/
 
-    /*Push the border line below the nav links*/
-
-    #reg-header {
-        height: 140px;
-    }
-
     #reg-section {
         justify-content: center;
         margin-top: 50px;
@@ -548,6 +552,12 @@ details:hover {
 
     #reg-section h2 {
         font-size: 160%;
+    }
+
+    /*Push the border line below the nav links*/
+
+    #reg-header {
+        height: 140px;
     }
 
     /*Makes the input submit larger*/
@@ -603,7 +613,7 @@ details:hover {
         margin-right: 75px;
     }
 
-    #rabout-us h3 {
+    #about-us h3 {
         margin-left: 58px;
     }
 
@@ -620,10 +630,16 @@ details:hover {
 
 @media screen and (min-width: 1400px) {
 
+
+    #about-us h2,
+    #about-us h3 {
+        margin-left: 0;
+    }
+
     /*Move the section to the center on index html*/
 
     #intro {
-        margin-left: 45px;
+        margin-left: 15px;
     }
 
     #events-intro {
@@ -722,12 +738,20 @@ details:hover {
         font-size: 160%;
     }
 
+    /*Adjust input fields*/
+
     #last-name {
         margin-left: 20px;
     }
 
     #email {
         margin-left: 183px;
+    }
+
+    #reg-submit {
+        width: 140px;
+        height: fit-content;
+        font-size: 50%;
     }
 
     /*Adjustment on title and nav link*/
@@ -738,7 +762,7 @@ details:hover {
         bottom: 60px;
     }
 
-    #reg-title{
+    #reg-title {
         font-size: 300%;
     }
 
@@ -750,14 +774,18 @@ details:hover {
 /* Media query: Desktops 2300px and up*/
 
 @media screen and (min-width: 2300px) {
+
     /*Reduce the empty spaces between the reg details and form*/
+
     #events-main {
         font-size: 200%;
     }
+
     #email {
         margin-left: 223px;
     }
-    #last-name{
+
+    #last-name {
         margin-left: 23px;
     }
 }
