@@ -31,11 +31,11 @@ These colours together create a bold, and energetic vibe.
 
 Wireframes were created for mobile, tablet and desktop.
 
-[Home Page for phone and tablet](/docs/wireframe/Index.html%20phones&tablet.png)<br>
-[Home Page for desktop](/docs/wireframe/Index%20desktop.png)<br>
-[Menu](/docs/wireframe/Menu.png)<br>
-[Events](/docs/wireframe/Events.png)<br>
-[Registration](/docs/wireframe/Registration.png)
+[Home Page for phone and tablet](/docs/wireframe/index-phones-tablet.png)<br>
+[Home Page for desktop](/docs/wireframe/index-desktop.png)<br>
+[Menu](/docs/wireframe/menu.png)<br>
+[Events](/docs/wireframe/events.png)<br>
+[Registration](/docs/wireframe/registration.png)
 
 ### Typography 
 
@@ -145,12 +145,12 @@ The following issues were raised during my mid project meeting with my mentor:
   ### W3C Validator
 
    The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. No errors were found, however there was a warning sign due to the imported google font.
-  * [Index HTML](/docs/testing/validator/Index.html-%20validator.png)<br>
-  * [Menu HTML](/docs/testing/validator/Menu.html-%20validator.png)<br>
-  * [Events HTML](/docs/testing/validator/Events.html-%20validator.png)<br>
-  * [Registration HTML](/docs/testing/validator/Registration.html-validator.png)<br>
-  * [CSS](/docs/testing/validator/CSS%20validator.png)<br>
-  * [Warning sign](/docs/testing/validator/Warning%20sign.png)<br>
+  * [Index HTML](/docs/testing/validator/index-validator.png)<br>
+  * [Menu HTML](/docs/testing/validator/menu-validator.png)<br>
+  * [Events HTML](/docs/testing/validator/events-validator.png)<br>
+  * [Registration HTML](/docs/testing/validator/registration-validator.png)<br>
+  * [CSS](/docs/testing/validator/css-validator.png)<br>
+  * [Warning sign](/docs/testing/validator/warning-sign.png)<br>
   ### Ligthouse
 
   I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
@@ -161,44 +161,44 @@ The following issues were raised during my mid project meeting with my mentor:
   I have tested the page without the google fonts, and the performance would have been 100.<br>
   Since the choosen font style is critical due to the theme of the web page, it will not be changed. 
   
-  [Index page for desktop](/docs/testing/lighthouse/Lighthouse-index.html-desktop.png)<br>
-  [Index page for mobile](/docs/testing/lighthouse/Ligthouse-index.html-mobile.png)<br>
-  [Index page for mobile warning](/docs/testing/lighthouse/Lighthouse-index.html-mobile-warning.png)<br>
-  [Index page for mobile without google fonts](/docs/testing/lighthouse/Lighthouse-index.html%20with%20google%20fonts%20removed.png)<br>
+  [Index page for desktop](/docs/testing/lighthouse/lighthouse-index-page-desktop.png)<br>
+  [Index page for mobile](/docs/testing/lighthouse/ligthouse-index-page-mobile.png)<br>
+  [Index page for mobile warning](/docs/testing/lighthouse/lighthouse-index-mobile-warning.png)<br>
+  [Index page for mobile without google fonts](/docs/testing/lighthouse/lighthouse-index-page-with-google-fonts-removed.png)<br>
 
   #### Menu page
 
-  [Menu page for desktop](/docs/testing/lighthouse/Lighthouse-Menu.html%20-%20desktop.png)<br>
-  [Menu page for mobile](/docs/testing/lighthouse/Lighthouse-Menu.html-mobile.png)<br>
+  [Menu page for desktop](/docs/testing/lighthouse/lighthouse-menu-page-desktop.png)<br>
+  [Menu page for mobile](/docs/testing/lighthouse/lighthouse-menu-page-mobile.png)<br>
 
   #### Events page
 
   The performance was really low due to the google fonts, however at this time for desktop. The performance would have been 100 without the google fonts. I was able to improve the performance by changing the background color. 
 
-  [Events page for desktop](/docs/testing/lighthouse/Lighthouse-event.html-desktop.png)<br>
-  [Events page for mobile](/docs/testing/lighthouse/Lighthouse-events.html-mobile.png)<br>
-  [Events page for desktop without google fonts](/docs/testing/lighthouse/Lighthouse-events.html-desktop-google%20fonts%20removed.png)<br>
-  [Events page for desktop with new BG color](/docs/testing/lighthouse/Lighthouse-events%20html%20-%20desktop.png)
+  [Events page for desktop](/docs/testing/lighthouse//lighthouse-event-page-desktop.png)<br>
+  [Events page for mobile](/docs/testing/lighthouse/lighthouse-events-page-mobile.png)<br>
+  [Events page for desktop without google fonts](/docs/testing/lighthouse/lighthouse-events-page-desktop-google-fonts-removed.png)<br>
+  [Events page for desktop with new BG color](/docs/testing/lighthouse/lighthouse-events-page-desktop.png)
 
   #### Registration page
 
-  [Registration page for desktop](/docs/testing/lighthouse/Lighthouse-registration.html-desktop.png)<br>
-  [Registration page for mobile](/docs/testing/lighthouse/Lighthouse-registration.html%20-%20mobile.png)
+  [Registration page for desktop](/docs/testing/lighthouse/lighthouse-registration-page-desktop.png)<br>
+  [Registration page for mobile](/docs/testing/lighthouse/lighthouse-registration-page-mobile.png)
 
   ### Wave
 
   All the 4 pages were tested at [Wave](https://wave.webaim.org/).
 
-  [Index page](/docs/testing/Wave/Wave%20report-index.png)<br>
-  [Menu page](/docs/testing/Wave/Wave%20report-menu.png)<br>
-  [Registration page](/docs/testing/Wave/Wave%20report-registration.png)<br>
-  [Events page](/docs/testing/Wave/Wave%20-%20events%20html.png)<br>
+  [Index page](/docs/testing/wave/wave-index.png)<br>
+  [Menu page](/docs/testing/wave/wave-menu.png)<br>
+  [Registration page](/docs/testing/wave/wave-registration.png)<br>
+  [Events page](/docs/testing/wave/wave-events.png)<br>
 
   ### Full Testing
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
   I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.<br>
-  [Tested screens](/docs/testing/Tested%20screen%20sizes.png)<br>
+  [Tested screens](/docs/testing/tested-screen-sizes.png)<br>
   Links:
   1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
   1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
