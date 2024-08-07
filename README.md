@@ -3,7 +3,7 @@
 
 Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying the delicious food. The weekend events will guarantee the fun for everyone.
 
-![Responsivenes](/docs/testing/AmIresponsive%20ss.png)
+![Responsivenes](/docs/testing/am-i-responsive.png)
 
 [View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
 
@@ -23,7 +23,8 @@ and symbolic meanings:
 * **Black:** Often associated with elegance, and modernity.
 * **Red:** Conveys excitement, energy, and passion.
 * **Yellow:** Represents happiness, optimism, and energy.
-* **Gray** It was used as the background color on Events html due to contrast errors.
+* **Gray** It was used as the background color on Events html due to contrast errors and background color<br>
+on index html to overlap the background image.
 
 These colours together create a bold, and energetic vibe.
 
@@ -44,28 +45,27 @@ webpage refers to classic video games, evoking nostalgia and retro feel.
 
 ### Features 
 
-The website is comprised of four pages, three of which are accessible from the navigation menu (home page, menu page & registration page).<br>
+The website consists of four pages, three of which are accessible from the navigation menu (home page, menu page & events page).<br>
 The fourth page is a confirmation page which is shown once a user submits the form on the events page.
 * All pages on the website have:
-  * Fully responsive header with navigation links which allow the user to navigate through the site. The navigation links background color will change to yellow if the user hover over the navigation elements. The text Hunger Gamers is in the center of the page above the navigation links.<br>The navigation links to the websites pages (Home,Menu,Events) and the text Hunger Gamers will be visible on both cellphones and dekstops. This was implemented to keep the website design same/slightly different if user accessing the website on multiple devices. Less change in design will promote a good user experience.
-  * A footer which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.
+  * Fully responsive [header](/docs/webpage_ss/header.png) with navigation links which allow the user to navigate through the site. The navigation links background color will change to yellow if the user hover over the navigation elements. The text Hunger Gamers is in the center of the page above the navigation links.<br>The navigation links to the websites pages (Home,Menu,Events) and the text Hunger Gamers will be visible on both cellphones and dekstops. This was implemented to keep the website design same/slightly different if user accessing the website on multiple devices. Less change in design will promote a good user experience.
+  * A [footer](/docs/webpage_ss/footer.png) which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.
 * Home page
-  * With a Nintendo Nes console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons". 
-  * Reasons why the user should visit the place.
-  * Short introduction and contact email.
+  * With a [Nintendo Nes](/docs/webpage_ss/index-page-top.png) console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons".<br>
+  
+  * [Reasons](/docs/webpage_ss/index-page-reason-why-visit-us.png) why the user should visit the place.
+  * [Introduction](/docs/webpage_ss/index-page-bottom-of-main.png) and contact email.
 * Menu page
-  * List of available dishes, drinks and snacks
+  * List of available dishes, drinks and snacks.<br>
+  [Menu top](/docs/webpage_ss/menu-page-offers.png)<br>
+  [Menu bottom](/docs/webpage_ss/menu-page-more-offers.png)
 * Events page
-  * The upcoming events with dates and details.
-  * Registration form with input fields and radio buttons.  
+  * The [upcoming events](/docs/webpage_ss/events-page-upcoming-events.png) with dates and details. User can click on the arrow to expand the event and check the details of it.<br>
+  [Event details](/docs/webpage_ss/events-page-event-details.png)
+  * [Registration form](/docs/webpage_ss/events-page-reg-form.png) with input fields and radio buttons.  
 * Registration page
-  * A confirmation message that the registration was successful. 
-
-
-### Content
-
-  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using<br>
-  others' codes or tutorials. 
+  * A [confirmation message](/docs/webpage_ss/registration-page.png) that the registration was successful.
+   
 
 ## Technologies used
 
@@ -131,16 +131,16 @@ I have used Chrome Developer tool while building the web page and troubleshoot a
 The following issues were raised during my mid project meeting with my mentor:
 
    * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
-   * The source code contained too many unnecessary whitespace.
+   * The source code contained too many unnecessary whitespaces.
    * Removing the method attribute from the Form element since the date will not sent anywhere.
    * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
-   * Collect elements into class which share the same attributes.
+   * Collect elements into class which share the same attributes and reduce the duplicate attributes in CSS.
 
   ### Known Bugs 
 
    * The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>
    This issue is due to lack support for background-attachment in Safari on iOS devices.<br>
-   This bugs does not prevent the user to navigate through the web page.
+   This bug does not prevent the user to navigate through the web page.
    
   ### W3C Validator
 
@@ -198,7 +198,7 @@ The following issues were raised during my mid project meeting with my mentor:
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
   I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.<br>
-  [Tested screens](/docs/testing/tested-screen-sizes.png)<br>
+  [Tested screens](/docs/testing/tested-screens.png)<br>
   Links:
   1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
   1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
@@ -207,12 +207,24 @@ The following issues were raised during my mid project meeting with my mentor:
 
 Registration form:
   1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.
+  [Test with required inputs](/docs/testing/reg-form-test/reg-form-test-no-details.png)<br>
+  [Test with first name](/docs/testing/reg-form-test/reg-form-test-with-first-name.png)<br>
+  [Test with first name and email](/docs/testing/reg-form-test/reg-form-test-with-fname-email.png)<br>
+  [Test with radio button](/docs/testing/reg-form-test/reg-form-test-with-radio-button.png)<br>
+  [Test with radio button and first name](/docs/testing/reg-form-test/reg-form-test-with-radiob-fname.png)<br>
+  [Test with radio button and email](/docs/testing/reg-form-test/reg-form-test-with-email-radiob.png)
 
 ### Content
 
 #### Images
 
 All background images were downloaded from [Pexels.com](https://www.pexels.com).
+
+#### Content
+
+  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using<br>
+  others' codes or tutorials. 
+
 
 
 
