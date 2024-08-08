@@ -7,7 +7,40 @@ Hunger Gamers is a responsive website allowing users to view on range of devices
 
 [View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
 
-## Web Page goal
+## Contents
+* [Web Page Goal](#web-page-goal)
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Wireframe](#wireframe)
+  * [Typography](#typography)
+* [Features](#features)
+  * [Home Page](#home-page)
+  * [Menu Page](#menu-page)
+  * [Events Page](#events-page)
+  * [Registration page](#registration-page)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+* [Testing](#testing)
+  * [Known Bugs](#known-bugs)
+  * [W3C Validator](#w3c-validator)
+  * [Lighthouse](#lighthouse)
+    * [Index](#index-page)
+    * [Menu](#menu-page-1)
+    * [Events](#events-page-1)
+    * [Registration](#registration-page-1)
+  * [Wave](#wave)
+  * [Full testing](#full-testing)
+  * [Credits](#credits)
+    * [Images](#images)
+    * [Media](#media)
+    * [Content](#content)
+    * [Acknowledgments](#acknowledgments)
+
+## Web Page Goal
 
 * To be able to view the site on a range of device sizes.
 * Create a community where gaming enthusiasts can come together.
@@ -16,6 +49,8 @@ Hunger Gamers is a responsive website allowing users to view on range of devices
 * Connect people through social network platforms.
 
 ## Design
+
+### Colour Scheme
 
 The website uses black,red and yellow colours due to their strong visual impact <br>
 and symbolic meanings:
@@ -28,7 +63,7 @@ on index html to overlap the background image.
 
 These colours together create a bold, and energetic vibe.
 
-## Wireframe 
+### Wireframe 
 
 Wireframes were created for mobile, tablet and desktop.
 
@@ -40,30 +75,29 @@ Wireframes were created for mobile, tablet and desktop.
 
 ### Typography 
 
-Google Font Silkscreen is being used for the website. The pixelated style used on<br>
+Google Font Silkscreen is being used for the website. The pixelated style used on 
 webpage refers to classic video games, evoking nostalgia and retro feel.
 
-### Features 
+## Features 
 
 The website consists of four pages, three of which are accessible from the navigation menu (home page, menu page & events page).<br>
 The fourth page is a confirmation page which is shown once a user submits the form on the events page.
 * All pages on the website have:
   * Fully responsive [header](/docs/webpage_ss/header.png) with navigation links which allow the user to navigate through the site. The navigation links background color will change to yellow if the user hover over the navigation elements. The text Hunger Gamers is in the center of the page above the navigation links.<br>The navigation links to the websites pages (Home,Menu,Events) and the text Hunger Gamers will be visible on both cellphones and dekstops. This was implemented to keep the website design same/slightly different if user accessing the website on multiple devices. Less change in design will promote a good user experience.
   * A [footer](/docs/webpage_ss/footer.png) which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.
-* Home page
-  * With a [Nintendo Nes](/docs/webpage_ss/index-page-top.png) console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons".<br>
-  
+* #### Home page
+  * With a [Nintendo NES](/docs/webpage_ss/index-page-top.png) console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons".
   * [Reasons](/docs/webpage_ss/index-page-reason-why-visit-us.png) why the user should visit the place.
   * [Introduction](/docs/webpage_ss/index-page-bottom-of-main.png) and contact email.
-* Menu page
+* #### Menu page
   * List of available dishes, drinks and snacks.<br>
   [Menu top](/docs/webpage_ss/menu-page-offers.png)<br>
   [Menu bottom](/docs/webpage_ss/menu-page-more-offers.png)
-* Events page
+* #### Events page
   * The [upcoming events](/docs/webpage_ss/events-page-upcoming-events.png) with dates and details. User can click on the arrow to expand the event and check the details of it.<br>
   [Event details](/docs/webpage_ss/events-page-event-details.png)
   * [Registration form](/docs/webpage_ss/events-page-reg-form.png) with input fields and radio buttons.  
-* Registration page
+* #### Registration page
   * A [confirmation message](/docs/webpage_ss/registration-page.png) that the registration was successful.
    
 
@@ -83,13 +117,15 @@ Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the icon logo.
+Font Awesome - For the icon image.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices.
 
 [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - To convert images to webp format.
+
+[Favicon](https://favicon.io/favicon-converter/) - To create Favicon.
 
 ## Deployment & Local Development
 
@@ -132,14 +168,13 @@ The following issues were raised during my mid project meeting with my mentor:
 
    * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
    * The source code contained too many unnecessary whitespaces.
-   * Removing the method attribute from the Form element since the date will not sent anywhere.
+   * Removing the method attribute from the Form element since the date will not be sent anywhere.
    * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
-   * Collect elements into class which share the same attributes and reduce the duplicate attributes in CSS.
+   * Collect elements into class which share the same attributes and reduce the duplicate codes in CSS.
 
   ### Known Bugs 
 
-   * The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>
-   This issue is due to lack support for background-attachment in Safari on iOS devices.<br>
+   The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>This issue is due to lack of support for background-attachment in Safari on iOS devices.<br>
    This bug does not prevent the user to navigate through the web page.
    
   ### W3C Validator
@@ -151,7 +186,8 @@ The following issues were raised during my mid project meeting with my mentor:
   * [Registration HTML](/docs/testing/validator/registration-validator.png)<br>
   * [CSS](/docs/testing/validator/css-validator.png)<br>
   * [Warning sign](/docs/testing/validator/warning-sign.png)<br>
-  ### Ligthouse
+
+  ### Lighthouse
 
   I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
@@ -206,7 +242,7 @@ The following issues were raised during my mid project meeting with my mentor:
   1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.<br>
 
 Registration form:
-  1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.
+  1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.<br>
   [Test with required inputs](/docs/testing/reg-form-test/reg-form-test-no-details.png)<br>
   [Test with first name](/docs/testing/reg-form-test/reg-form-test-with-first-name.png)<br>
   [Test with first name and email](/docs/testing/reg-form-test/reg-form-test-with-fname-email.png)<br>
@@ -214,16 +250,26 @@ Registration form:
   [Test with radio button and first name](/docs/testing/reg-form-test/reg-form-test-with-radiob-fname.png)<br>
   [Test with radio button and email](/docs/testing/reg-form-test/reg-form-test-with-email-radiob.png)
 
-### Content
+## Credits
 
-#### Images
+### Images
 
 All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
-#### Content
+### Media
 
-  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using<br>
-  others' codes or tutorials. 
+All screenshots used in this README file were taken by myself.
+
+### Content
+
+  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using others' codes or tutorials. <br>
+  I have only used the available resources from the Code Institue curriculum.<br>I have used the [Readme example](https://github.com/kera-cudmore/readme-examples?tab=readme-ov-file) to create this Readme.
+
+### Acknowledgments
+
+I would like to acknowledge:
+
+* My Code Institute mentor Graeme Taylor for his valuable advices.
 
 
 
@@ -233,3 +279,5 @@ All background images were downloaded from [Pexels.com](https://www.pexels.com).
 
 
 
+
+   
