@@ -1,7 +1,7 @@
 
 # Hunger Gamers
 
-Hunger Gamers is a responsive website allowing users to view on range of devices.<br> The purpose of the page is to get people together and  have a few carefree hours while playing video games and enjoying the delicious food. The weekend events will guarantee the fun for everyone.
+Hunger Gamers is a responsive website that allows users to view it on range of devices.<br> The purpose of the page is to bring people together for a few carefree hours of playing video games and enjoying delicious food. The site provides a hub for planning and attending weekend events. The weekend events will guarantee fun for everyone. Hunger Gamers aims to create a community where everyone can relive those carefree 9th-grade Friday nights.
 
 ![Responsivenes](/docs/testing/am-i-responsive.png)
 
@@ -52,14 +52,13 @@ Hunger Gamers is a responsive website allowing users to view on range of devices
 
 ### Colour Scheme
 
-The website uses black,red and yellow colours due to their strong visual impact <br>
-and symbolic meanings:
+The website uses black,red and yellow due to their strong visual impact <br>
+and symbolic meanings as follows:
 
 * **Black:** Often associated with elegance, and modernity.
 * **Red:** Conveys excitement, energy, and passion.
 * **Yellow:** Represents happiness, optimism, and energy.
-* **Gray** It was used as the background color on Events html due to contrast errors and background color<br>
-on index html to overlap the background image.
+* **Gray** Used as the background color on Events html due to contrast errors, and on index page to overlap the background image.
 
 These colours together create a bold, and energetic vibe.
 
@@ -75,18 +74,17 @@ Wireframes were created for mobile, tablet and desktop.
 
 ### Typography 
 
-Google Font Silkscreen is being used for the website. The pixelated style used on 
-webpage refers to classic video games, evoking nostalgia and retro feel.
+The Google Font Silkscreen is used for the website. The pixelated style evokes nostalgia and a retro feel, reminiscent of classic video games. 
 
 ## Features 
 
 The website consists of four pages, three of which are accessible from the navigation menu (home page, menu page & events page).<br>
 The fourth page is a confirmation page which is shown once a user submits the form on the events page.
 * All pages on the website have:
-  * Fully responsive [header](/docs/webpage_ss/header.png) with navigation links which allow the user to navigate through the site. The navigation links background color will change to yellow if the user hover over the navigation elements. The text Hunger Gamers is in the center of the page above the navigation links.<br>The navigation links to the websites pages (Home,Menu,Events) and the text Hunger Gamers will be visible on both cellphones and dekstops. This was implemented to keep the website design same/slightly different if user accessing the website on multiple devices. Less change in design will promote a good user experience.
-  * A [footer](/docs/webpage_ss/footer.png) which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.
+  * Fully responsive [header](/docs/webpage_ss/header.png) with navigation links which allow the user to navigate through the site. The navigation links background color changes to yellow when the user hover over them. The text 'Hunger Gamers' is centered above the navigation links.<br>The navigation links to the websites pages (Home,Menu,Events) and the text Hunger Gamers will be visible on both cellphones and dekstops. This was implemented to maintain a consistent design across devices, enhancing the user experience. Less change in design will promote a good user experience.
+  * A [footer](/docs/webpage_ss/footer.png) which contains social media links. The name of the social media platforms were used instead of the social media icons to keep the retro feeling with the pixelated fonts.<br>Added aria labels to each links.
 * #### Home page
-  * With a [Nintendo NES](/docs/webpage_ss/index-page-top.png) console as background image.The first thing that user will notice is the console image and the text of "Speedruns & Game Marathons".
+  * The [Nintendo NES](/docs/webpage_ss/index-page-top.png) console used as the background image.The first thing users will notice is the console image and the text of 'Speedruns & Game Marathons'.
   * [Reasons](/docs/webpage_ss/index-page-reason-why-visit-us.png) why the user should visit the place.
   * [Introduction](/docs/webpage_ss/index-page-bottom-of-main.png) and contact email.
 * #### Menu page
@@ -100,6 +98,10 @@ The fourth page is a confirmation page which is shown once a user submits the fo
 * #### Registration page
   * A [confirmation message](/docs/webpage_ss/registration-page.png) that the registration was successful.
    
+
+### Future Implementations
+
+In future,I plan to implement a dynamic event calendar that users can sync with their personal calendar, and a Leaderboard page for a leadeboard for the gaming events.
 
 ## Technologies used
 
@@ -117,13 +119,15 @@ Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
 
-Font Awesome - For the icon image.
+Font Awesome - Used for icon image.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Am I Responsive?](https://ui.dev/amiresponsive) - To show the website image on a range of devices.
 
 [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - To convert images to webp format.
+
+[TinyPng](https://tinypng.com/) - To reduce the image size.
 
 [Favicon](https://favicon.io/favicon-converter/) - To create Favicon.
 
@@ -166,15 +170,15 @@ I have used Chrome Developer tool while building the web page and troubleshoot a
 
 The following issues were raised during my mid project meeting with my mentor:
 
-   * The background images were not converted to webp format. Due to the image size the Lighthouse gave low performance score.  
+   * The background images were not converted to webp format, resulting in low performance score.  
    * The source code contained too many unnecessary whitespaces.
    * Removing the method attribute from the Form element since the date will not be sent anywhere.
-   * The mentor brought to my attention that the "Last Name" input is not required on the Events page. It is not required on purpose. User might have a long last name so skipping that field can save them time.
-   * Collect elements into class which share the same attributes and reduce the duplicate codes in CSS.
+   * My mentor brought to my attention that the "Last Name" input is not required on the Events page. It is intentional, as some users might have long last names, and skipping this field coul save them time.
+   * Collect elements into classes that share the same attributes to reduce the duplicate code in CSS.
 
   ### Known Bugs 
 
-   The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>This issue is due to lack of support for background-attachment in Safari on iOS devices.<br>
+   The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>This issue is due to lack of support for background-attachment property in Safari on iOS devices.<br>
    This bug does not prevent the user to navigate through the web page.
    
   ### W3C Validator
@@ -194,8 +198,8 @@ The following issues were raised during my mid project meeting with my mentor:
   #### Index page
 
   The performance was really low for mobile phones due to the google fonts.<br>
-  I have tested the page without the google fonts, and the performance would have been 100.<br>
-  Since the choosen font style is critical due to the theme of the web page, it will not be changed. 
+  I tested the page without the Google Fonts, and the performance would have been 100.<br>
+  Since the chosen font style is critical to the theme of the webpage, it will not be changed. 
   
   [Index page for desktop](/docs/testing/lighthouse/lighthouse-index-page-desktop.png)<br>
   [Index page for mobile](/docs/testing/lighthouse/ligthouse-index-page-mobile.png)<br>
@@ -233,13 +237,13 @@ The following issues were raised during my mid project meeting with my mentor:
   ### Full Testing
 
   I performed the following testing using a number of browsers (google chrome, safari, mozilla firefox,edge) and devices (Macbook Pro 15 inch, iMac 21.5 inch, iPhone 11, iPhone 6s and a 15 inch Dell laptop).<br>
-  I also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.<br>
+  I also used Google Chrome Developer Tools to ensure that each page is responsive on different screen sizes.<br>
   [Tested screens](/docs/testing/tested-screens.png)<br>
   Links:
-  1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-  1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-  1. Test each link on the events page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-  1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.<br>
+  1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a separate browser tab.
+  1. Test each link on the menu page. Each link worked as expected, and any links leading to external pages opened correctly in a separate browser tab.
+  1. Test each link on the events page. Each link worked as expected, and any links leading to external pages opened correctly in a separate browser tab.
+  1. Test each link on the registration page. Each link worked as expected, and any links leading to external pages opened correctly in a separate browser tab.<br>
 
 Registration form:
   1. The form worked as expected. Form could not be submitted without filling in the <em>First Name</em>,<em>Email</em> and choosing one of the radio buttons. If any of the field is not filled out/radio button not checked, the form directs the user to fill the empty field/select radio button.<br>
@@ -262,8 +266,8 @@ All screenshots used in this README file were taken by myself.
 
 ### Content
 
-  Content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using others' codes or tutorials. <br>
-  I have only used the available resources from the Code Institue curriculum.<br>I have used the [Readme example](https://github.com/kera-cudmore/readme-examples?tab=readme-ov-file) to create this Readme.
+  All content for the website was written by Tamas Gavlider. All the codes were written by Tamas Gavlider without using others' codes or tutorials.<br>
+  I used only the available resources from the Code Institue curriculum.<br>I have used the [Readme example](https://github.com/kera-cudmore/readme-examples?tab=readme-ov-file) to create this Readme.
 
 ### Acknowledgments
 
