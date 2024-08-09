@@ -179,7 +179,8 @@ The following issues were raised during my mid project meeting with my mentor:
   ### Known Bugs 
 
    The background image on index html should be fixed on mobile phones. It works fine in Chrome Developer Tool, and Android devices but not on Iphones. It was tested on Iphone 11 and Iphone 6.<br>This issue is due to lack of support for background-attachment property in Safari on iOS devices.<br>
-   This bug does not prevent the user to navigate through the web page.
+   A possible workaround was find at [bricksbuilder](https://forum.bricksbuilder.io/t/no-bug-background-fixed-broken-on-ios/3142/9), however this code did not fix the issue.<br>The code will not be changed since this is rather a system limitation than a bug, and it does not prevent the user to navigate through the web page.
+   
    
   ### W3C Validator
 
@@ -202,7 +203,7 @@ The following issues were raised during my mid project meeting with my mentor:
   Since the chosen font style is critical to the theme of the webpage, it will not be changed. 
   
   [Index page for desktop](/docs/testing/lighthouse/lighthouse-index-page-desktop.png)<br>
-  [Index page for mobile](/docs/testing/lighthouse/ligthouse-index-page-mobile.png)<br>
+  [Index page for mobile](/docs/testing/lighthouse/lighthouse-index-page-mobile.png)<br>
   [Index page for mobile warning](/docs/testing/lighthouse/lighthouse-index-mobile-warning.png)<br>
   [Index page for mobile without google fonts](/docs/testing/lighthouse/lighthouse-index-page-with-google-fonts-removed.png)<br>
 

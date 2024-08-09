@@ -78,12 +78,6 @@ header {
     background-position: center;
 }
 
-.unfix-ios-bg {
-    @supports (-webkit-touch-callout: none) {
-        background-attachment: initial !important;
-    }
-}
-
 /* bg color to cover the bg image*/
 
 .bg-grey {
