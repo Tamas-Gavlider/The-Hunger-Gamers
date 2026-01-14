@@ -5,7 +5,7 @@ Hunger Gamers is a responsive website that allows users to view it on range of d
 
 ![Responsivenes](/docs/testing/am-i-responsive.png)
 
-[View Hunger Gamers on Github Pages](https://tamas-gavlider.github.io/The-Hunger-Gamers/)
+[View Hunger Gamers on Github Pages](https://cryptopadre.github.io/The-Hunger-Gamers/)
 
 ## Contents
 * [Web Page Goal](#web-page-goal)
